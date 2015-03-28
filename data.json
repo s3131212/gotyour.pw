@@ -1,232 +1,227 @@
-[  
-   {  
-      "\u6559\u5b78":[  
-         {  
+[
+   {
+      "\u6559\u5b78":[
+         {
             "name":"Cybrary",
             "url":"http:\/\/www.cybrary.it\/",
             "descriptions":"\u514d\u8cbb\u7684\u82f1\u6587\u6559\u5b78\u5f71\u7247\uff0c\u6d89\u53ca\u5404\u7a2e\u8cc7\u5b89\u9818\u57df\u800c\u4e14\u5f88\u6df1\u5165"
          },
-         {  
+         {
             "name":"OpenCourseWare",
             "url":"http:\/\/opensecuritytraining.info\/Training.html",
             "descriptions":"\u514d\u8cbb\u7684\u82f1\u6587\u6559\u5b78\u5f71\u7247\uff0c\u975e\u5e38\u8a73\u7d30"
          },
-         {  
+         {
             "name":"OffensiveComputerSecurity",
             "url":"http:\/\/www.cs.fsu.edu\/~redwood\/OffensiveComputerSecurity\/lectures.html",
             "descriptions":"\u53c8\u662f\u4e00\u500b\u8a73\u7d30\u7684\u82f1\u6587\u6559\u5b78\u5f71\u7247"
          },
-         {  
+         {
             "name":"Irongeek.com",
             "url":"http:\/\/www.irongeek.com\/",
             "descriptions":"\u4e00\u5927\u5806\u82f1\u6587\u6559\u5b78\u5f71\u7247\uff0c\u591a\u7684\u4e0d\u50cf\u8a71"
          },
-         {  
+         {
             "name":"SANS Cyber Aces Online Tutorials",
             "url":"https:\/\/tutorials.cyberaces.org\/tutorials",
             "descriptions":"\u7c21\u55ae\u6613\u61c2\u7684\u82f1\u6587\u6559\u5b78\u5f71\u7247"
          },
-         {  
+         {
             "name":"EC-Council ENSA",
             "url":"https:\/\/www.dropbox.com\/sh\/qohk0tx8qmwxdxw\/AACa3ygwb2gEIRXqwV5dtHJTa?dl=0",
             "descriptions":"EC-Council ENSA \u6559\u6750\u4e0b\u8f09"
          },
-         {  
+         {
             "name":"EC-Council CHFI",
             "url":"https:\/\/www.dropbox.com\/sh\/o6833kp05a903pg\/AAAZJxlUp3zP0OWR4N3s5JTia?dl=0",
             "descriptions":"EC-Council CHFI \u6559\u6750\u4e0b\u8f09"
          }
       ],
-      "Cheat Sheet":[  
-         {  
+      "Cheat Sheet":[
+         {
             "name":"SQL Injection Cheet Sheet I",
             "url":"http:\/\/ferruh.mavituna.com\/sql-injection-cheatsheet-oku\/#ByPassingLoginScreens",
             "descriptions":"SQL \u6ce8\u5165 Cheat Sheet"
          },
-         {  
+         {
             "name":"SQL Injection Cheet Sheet II",
             "url":"http:\/\/www.sqlinjectionwiki.com\/Categories\/2\/mysql-sql-injection-cheat-sheet\/",
             "descriptions":"\u53e6\u4e00\u500b\u4e0d\u932f\u7684 Cheat Sheet \uff0c\u53f3\u908a\u53ef\u4ee5\u9078\u64c7\u8cc7\u6599\u5eab\u7cfb\u7d71"
          },
-         {  
+         {
             "name":"XSS Cheet Sheet I",
             "url":"https:\/\/www.owasp.org\/index.php\/XSS_Filter_Evasion_Cheat_Sheet",
             "descriptions":"OWASP \u7684 XSS Cheat Sheet \uff0c\u8d85\u8a73\u7d30"
          },
-         {  
+         {
             "name":"XSS Cheet Sheet II",
             "url":"http:\/\/www.xenuser.org\/xss-cheat-sheet\/",
             "descriptions":"\u7c21\u7565\u7684 XSS Cheat Sheet"
          },
-         {  
+         {
             "name":"XSS Cheet Sheet for HTML5",
             "url":"https:\/\/html5sec.org\/",
             "descriptions":"\u5c08\u9580\u7d66 HTML5 \u7684 XSS Cheat Sheet"
          }
       ],
-      "\u7db2\u7ad9":[  
-         {  
+      "\u7db2\u7ad9":[
+         {
             "name":"exp.tw",
             "url":"http:\/\/exp.tw\/",
             "descriptions":"\u7531 Orange \u5927\u795e\u5efa\u7acb\u7684\u8cc7\u5b89\u7db2\u7ad9\uff0c\u81ea\u52d5\u8490\u96c6\u5404\u5927\u5927\u795e\u7684\u52d5\u614b\u3001\u6587\u7ae0\u53ca\u4e00\u4e9b\u77e5\u8b58\u5206\u4eab"
          },
-         {  
+         {
             "name":"Packet Storm",
             "url":"http:\/\/packetstormsecurity.com\/",
             "descriptions":"\u8cc7\u5b89\u65b0\u805e\u7db2\u7ad9"
          },
-         {  
+         {
             "name":"CVE Details",
             "url":"http:\/\/www.cvedetails.com\/",
             "descriptions":"CVE \u6f0f\u6d1e\u8a73\u7d30\u8cc7\u6599\u53ca\u6574\u7406"
          },
-         {  
+         {
             "name":"National Vulnerability Database",
             "url":"https:\/\/nvd.nist.gov\/",
             "descriptions":"\u7f8e\u570b\u7684\u8cc7\u5b89\u6f0f\u6d1e\u7db2\u7ad9"
          },
-         {  
+         {
             "name":"SecurityFocus",
             "url":"http:\/\/www.securityfocus.com\/",
             "descriptions":"\u8cc7\u5b89\u65b0\u805e\u7db2\u7ad9"
          },
-         {  
+         {
             "name":"Security Alley",
             "url":"http:\/\/securityalley.blogspot.tw\/",
             "descriptions":"\u8cc7\u6e90\u76f8\u7576\u8c50\u5bcc\u800c\u4e14\u5927\u91cf\u7684\u6559\u5b78\u6587"
          },
-         {  
-            "name":"exp.tw",
-            "url":"http:\/\/exp.tw\/",
-            "descriptions":"\u7531 Orange \u5927\u795e\u5efa\u7acb\u7684\u8cc7\u5b89\u7db2\u7ad9\uff0c\u81ea\u52d5\u8490\u96c6\u5404\u5927\u5927\u795e\u7684\u52d5\u614b\u3001\u6587\u7ae0\u53ca\u4e00\u4e9b\u77e5\u8b58\u5206\u4eab"
-         },
-         {  
+         {
             "name":"FreeBuf",
             "url":"http:\/\/www.freebuf.com\/",
             "descriptions":"\u95dc\u6ce8\u9ed1\u5ba2\u8207\u8cc7\u5b89\u65b0\u805e\u7684\u7db2\u7ad9"
          },
-         {  
+         {
             "name":"VulReport",
             "url":"https:\/\/vulreport.net\/",
             "descriptions":"\u7531 HITCON \u767c\u8d77\u4e26\u652f\u6301\u7684\u6f0f\u6d1e\u901a\u5831\u5e73\u53f0"
          },
-         {  
+         {
             "name":"WooYun.org \u70cf\u96f2\u7db2",
             "url":"http:\/\/www.wooyun.org\/",
             "descriptions":"\u4e2d\u570b\u7684\u6f0f\u6d1e\u901a\u5831\u5e73\u53f0"
          },
-         {  
+         {
             "name":"\u6f0f\u6d1e\u76d2\u5b50",
             "url":"https:\/\/www.vulbox.com\/",
             "descriptions":"\u4e00\u500b\u5168\u6c11\u6316\u6f0f\u6d1e\u9818\u734e\u91d1\uff08\uff1f\uff09\u7684\u6f0f\u6d1e\u901a\u5831\u5e73\u53f0"
          }
       ],
-      "\u5de5\u5177":[  
-         {  
+      "\u5de5\u5177":[
+         {
             "name":"SQLMap",
             "url":"http:\/\/sqlmap.org\/",
             "descriptions":"\u81ea\u52d5\u5316 SQL Injection \u5de5\u5177"
          },
-         {  
+         {
             "name":"Nmap",
             "url":"http:\/\/nmap.org\/",
             "descriptions":"\u81ea\u52d5\u5316\u6383\u63cf\u5de5\u5177"
          },
-         {  
+         {
             "name":"Zmap",
             "url":"https:\/\/zmap.io\/",
             "descriptions":"\u66f4\u5feb\u7684\u81ea\u52d5\u5316\u6383\u63cf\u5de5\u5177\uff08\uff1f"
          },
-         {  
+         {
             "name":"Masscan",
             "url":"https:\/\/github.com\/robertdavidgraham\/masscan",
             "descriptions":"\u8d85\u5feb\u7684\u81ea\u52d5\u5316\u6383\u63cf\u5de5\u5177\uff08\u88ab\u8e39\u98db"
          },
-         {  
+         {
             "name":"Burp Suite",
             "url":"http:\/\/portswigger.net\/burp\/",
             "descriptions":"\u5f37\u5927\u7684\u6e2c\u8a66\u5de5\u5177\uff0c\u5305\u542b\u6f0f\u6d1e\u6383\u63cf\uff0c\u6aa2\u8996\u3001\u4fee\u6539\u3001\u50b3\u9001\u5c01\u5305"
          },
-         {  
+         {
             "name":"Metasploit",
             "url":"http:\/\/www.metasploit.com\/",
             "descriptions":"\u6ef2\u900f\u6e2c\u8a66\u7528\u7684\u5de5\u5177\u5305"
          },
-         {  
+         {
             "name":"Ettercap",
             "url":"http:\/\/ettercap.github.io\/ettercap\/",
             "descriptions":"MITM \u653b\u64ca\u6e2c\u8a66\u5de5\u5177"
          },
-         {  
+         {
             "name":"Kali Linux",
             "url":"https:\/\/www.kali.org\/",
             "descriptions":"\u5df2\u7d93\u6253\u5305\u597d\u5404\u7a2e\u6ef2\u900f\u6e2c\u8a66\u5de5\u5177\u7684\u4f5c\u696d\u7cfb\u7d71"
          },
-         {  
+         {
             "name":"CMSmap",
             "url":"https:\/\/github.com\/dionach\/CMSmap",
             "descriptions":"\u81ea\u52d5\u5316 CMS \u653b\u64ca\u7a0b\u5f0f"
          },
-         {  
+         {
             "name":"Cheat Engine",
             "url":"http:\/\/www.cheatengine.org\/",
             "descriptions":"\u53ef\u4ee5\u4efb\u610f\u6aa2\u8996\u3001\u4fee\u6539\u8a18\u61b6\u9ad4\u5167\u5bb9\uff0c\u5e38\u7528\u65bc\u9006\u5411\u5de5\u7a0b\u548c\u5916\u639b\u88fd\u4f5c"
          },
-         {  
+         {
             "name":"IDA",
             "url":"https:\/\/www.hex-rays.com\/products\/ida\/",
             "descriptions":"\u9006\u5411\u5de5\u7a0b\u53ca\u9664\u932f\u5de5\u5177"
          },
-         {  
+         {
             "name":"GDB",
             "url":"https:\/\/www.gnu.org\/software\/gdb\/",
             "descriptions":"\u4e5f\u662f\u4e00\u500b\u9664\u932f\u5de5\u5177\uff0c\u5e38\u7528\u65bc\u9006\u5411\u5de5\u7a0b"
          }
       ],
-      "\u5f8c\u9580":[  
-         {  
+      "\u5f8c\u9580":[
+         {
             "name":"\u5404\u7a2e\u5f37\u5927\u5f8c\u9580\u96c6\u5408",
             "url":"https:\/\/github.com\/tennc\/webshell",
             "descriptions":"\u8490\u96c6\u4e86\u5404\u5927\u8a9e\u8a00\u7684\u5f8c\u9580\u7a0b\u5f0f"
          },
-         {  
+         {
             "name":"\u90a3\u4e9b\u5f3a\u608d\u7684PHP\u4e00\u53e5\u8bdd\u540e\u95e8",
             "url":"http:\/\/www.oooceo.com\/security\/php-word\/",
             "descriptions":"\u5404\u7a2e\u795e\u4eba\u7d1a\u7684 PHP \u5f8c\u9580"
          },
-         {  
+         {
             "name":"asp\u4e00\u53e5\u8bdd\u6728\u9a6c\u7684\u603b\u7ed3\u5206\u6790",
             "url":"http:\/\/www.path8.net\/tn\/archives\/3998",
             "descriptions":"PHP \u5b8c\u4e86\u63db ASP \u4e00\u53e5\u8a71\u5f8c\u9580"
          }
       ],
-      "\u904a\u6232\/\u7df4\u529f\u623f":[  
-         {  
+      "\u904a\u6232\/\u7df4\u529f\u623f":[
+         {
             "name":"alert(1) to win",
             "url":"https:\/\/escape.alf.nu\/",
             "descriptions":"XSS \u7df4\u529f\u623f\uff0c\u89e3\u7b54\u5728\u6b64<\/a>"
          },
-         {  
+         {
             "name":"bWAPP",
             "url":"http:\/\/www.itsecgames.com\/",
             "descriptions":"bWAPP \u6709\u8d85\u904e\u4e00\u767e\u500b\u6f0f\u6d1e\u53ef\u4f9b\u521d\u5b78\u8005\u6a21\u64ec\u653b\u64ca"
          },
-         {  
+         {
             "name":"Broken Web Applications",
             "url":"https:\/\/www.owasp.org\/index.php\/OWASP_Broken_Web_Applications_Project",
             "descriptions":"OWASP \u7dad\u8b77\u7684\u653b\u64ca\u5b78\u7fd2\u7db2\u7ad9"
          },
-         {  
+         {
             "name":"WebGoat",
             "url":"https:\/\/www.owasp.org\/index.php\/Category:OWASP_WebGoat_Project",
             "descriptions":"\u4e00\u500b\u6f0f\u6d1e\u8c50\u5bcc\u7684\u7db2\u7ad9\uff0c\u6700\u9069\u5408\u521d\u5b78\u8005\u5b78\u7fd2\u653b\u64ca"
          },
-         {  
+         {
             "name":"prompt(1) to win",
             "url":"http:\/\/prompt.ml\/0",
             "descriptions":"\u985e\u4f3c alert(1) to win \u7684\u904a\u6232"
          },
-         {  
+         {
             "name":"NCTU Online Judge",
             "url":"http:\/\/wargame.cs.nctu.edu.tw\/",
             "descriptions":"\u4ea4\u5927 Wargame Online Judge"
