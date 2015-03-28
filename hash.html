@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hash Generator - Got Your PW</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Got Your PW 是專門為對資安有興趣的人士整理的資源，包含常用的工具，適合初學者的入門教材，好用的後門程式，和許多值得追蹤的資安相關網站。" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/hash.js"></script>
+		<script src='js/crypto-js/md5.js'></script>
+		<script src='js/crypto-js/sha1.js'></script>
+		<script src='js/crypto-js/sha256.js'></script>
+		<script src='js/crypto-js/sha512.js'></script>
+		<script src='js/crypto-js/sha3.js'></script>
+		<script src='js/crypto-js/ripemd160.js'></script>
+		<script src='js/crypto-js/pbkdf2.js'></script>
+		<script src='js/crypto-js/hmac-md5.js'></script>
+		<script src='js/crypto-js/hmac-sha1.js'></script>
+		<script src='js/crypto-js/hmac-sha256.js'></script>
+		<script src='js/crypto-js/hmac-sha512.js'></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="skel-layers-fixed">
+				<h1><a href="index.html">Got Your PW</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="" class="icon fa-angle-down">Tools</a>
+							<ul>
+								<li><a href="converter.html">Converter</a></li>
+								<li><a href="hash.html">Hash Generator</a></li>
+								<li><a href="encrypt.html">Encryptor / Decryptor</a></li>
+							</ul>
+						</li>
+						<li><a href="#" class="button">Contact US</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="container 75%">
+				<header>
+					<h2>Hash Generator</h2>
+					<p>此工具用於在線上生成各種 Hash</p>
+				</header>
+				<div class="box">
+					<h3>Hash without salt</h3>
+					<form method="post" action="#">
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>Plain Text</h4>
+								<input type="text" name="string" id="string" value="" placeholder="Plain Text" />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>MD5</h4>
+								<input type="text" name="md5" id="md5" value="" placeholder="MD5" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>SHA-1</h4>
+								<input type="text" name="sha1" id="sha1" value="" placeholder="SHA-1" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>SHA-256</h4>
+								<input type="text" name="sha256" id="sha256" value="" placeholder="SHA-256" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>SHA-512</h4>
+								<input type="text" name="sha512" id="sha512" value="" placeholder="SHA-512" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>SHA-3</h4>
+								<input type="text" name="sha3" id="sha3" value="" placeholder="SHA-3" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>RIPEMD-160</h4>
+								<input type="text" name="ripemd160" id="ripemd160" value="" placeholder="RIPEMD-160" readonly />
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="box">
+					<h3>Hash with salt</h3>
+					<form method="post" action="#">
+						<div class="row uniform 50%">
+							<div class="4u 12u(mobilep)">
+								<h4>Plain Text</h4>
+								<input type="text" name="string2" id="string2" value="" placeholder="Plain Text" />
+							</div>
+							<div class="4u 12u(mobilep)">
+								<h4>Salt</h4>
+								<input type="text" name="salt" id="salt" value="" placeholder="Salt" />
+							</div>
+							<div class="4u 12u(mobilep)">
+								<h4>Location</h4>
+								<div class="select-wrapper">
+									<select name="location" id="location">
+										<option value="before">字串前</option>
+										<option value="after">字串後</option>
+									</select>
+								</div>
+								<p>給不強制加鹽的 Hash 使用</p>
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>PBKDF2</h4>
+								<h5>128 Bits</h5>
+								<input type="text" name="pbkdf2_128" id="pbkdf2_128" value="" placeholder="PBKDF2 128 Bits" readonly />
+								<h5>256 Bits</h5>
+								<input type="text" name="pbkdf2_256" id="pbkdf2_256" value="" placeholder="PBKDF2 256 Bits" readonly />
+								<h5>512 Bits</h5>
+								<input type="text" name="pbkdf2_512" id="pbkdf2_512" value="" placeholder="PBKDF2 512 Bits" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>MD5</h4>
+								<input type="text" name="md5s" id="md5s" value="" placeholder="MD5" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>SHA-1</h4>
+								<input type="text" name="sha1s" id="sha1s" value="" placeholder="SHA-1" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>SHA-256</h4>
+								<input type="text" name="sha256s" id="sha256s" value="" placeholder="SHA-256" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>SHA-512</h4>
+								<input type="text" name="sha512s" id="sha512s" value="" placeholder="SHA-512" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>SHA-3</h4>
+								<input type="text" name="sha3s" id="sha3s" value="" placeholder="SHA-3" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>RIPEMD-160</h4>
+								<input type="text" name="ripemd160s" id="ripemd160s" value="" placeholder="RIPEMD-160" readonly />
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="box">
+					<h3>HMAC</h3>
+					<form method="post" action="#">
+						<div class="row uniform 50%">
+							<div class="6u 12u(mobilep)">
+								<h4>Plain Text</h4>
+								<input type="text" name="string3" id="string3" value="" placeholder="Plain Text" />
+							</div>
+							<div class="6u 12u(mobilep)">
+								<h4>Passphrase</h4>
+								<input type="text" name="passphrase" id="passphrase" value="" placeholder="Passphrase" />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>MD5</h4>
+								<input type="text" name="md5h" id="md5h" value="" placeholder="MD5" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>SHA-1</h4>
+								<input type="text" name="sha1h" id="sha1h" value="" placeholder="SHA-1" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>SHA-256</h4>
+								<input type="text" name="sha256h" id="sha256h" value="" placeholder="SHA-256" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>SHA-512</h4>
+								<input type="text" name="sha512h" id="sha512h" value="" placeholder="SHA-512" readonly />
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/s3131212/gotyour.pw" class="icon fa-github"><span class="label">Github</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Got Your PW. All rights reserved.</li><li>Design: <a href="http://html5up.net" target="_blank" rel="nofollow">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+	</body>
+</html>

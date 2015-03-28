@@ -1,0 +1,30 @@
+/*
+Code from : http://codepen.io/jamesbarnett/pen/yitdK
+*/
+#loading {
+  background-color: black;
+  z-index: 10000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+@keyframes typing { from { width: 0; } }
+@keyframes blink-caret { 50% { border-color: transparent; } }
+
+#loading p { 
+  margin: 50px auto;
+  width: 600px;
+  font: bold 90px 'courier new', consolas, monaco,  monospace;
+  color: green;
+  border-right: 6px solid;
+  overflow: hidden;
+  -webkit-animation: typing 3s steps(11, end) infinite, /* # of steps = # of chars */
+  blink-caret .3s step-end infinite alternate;
+  animation: typing 3s steps(11, end) infinite, /* # of steps = # of chars */
+  blink-caret .3s step-end infinite alternate;
+}
+
+#loading span { letter-spacing: -10px; }

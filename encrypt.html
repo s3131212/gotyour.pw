@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Encryptor / Decryptor - Got Your PW</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Got Your PW 是專門為對資安有興趣的人士整理的資源，包含常用的工具，適合初學者的入門教材，好用的後門程式，和許多值得追蹤的資安相關網站。" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/converter.js"></script>
+		<script src="js/encrypt.js"></script>
+		<script src='js/crypto-js/aes.js'></script>
+		<script src='js/crypto-js/tripledes.js'></script>
+		<script src='js/crypto-js/rabbit.js'></script>
+		<script src='js/crypto-js/rc4.js'></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="skel-layers-fixed">
+				<h1><a href="index.html">Got Your PW</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="" class="icon fa-angle-down">Tools</a>
+							<ul>
+								<li><a href="converter.html">Converter</a></li>
+								<li><a href="hash.html">Hash Generator</a></li>
+								<li><a href="encrypt.html">Encryptor / Decryptor</a></li>
+							</ul>
+						</li>
+						<li><a href="#" class="button">Contact US</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="container 75%">
+				<header>
+					<h2>Encryptor / Decryptor</h2>
+					<p>此工具可在線上對稱金鑰加密演算法的加解密</p>
+				</header>
+				<div class="box">
+					<h3>加密</h3>
+					<form method="post" action="#">
+						<div class="row uniform 50%">
+							<div class="6u 12u(mobilep)">
+								<h4>Text</h4>
+								<input type="text" name="content" id="content" value="" placeholder="Content" />
+							</div>
+							<div class="6u 12u(mobilep)">
+								<h4>Passphrase</h4>
+								<input type="text" name="pass" id="pass" value="" placeholder="Passphrase" />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>AES-256</h4>
+								<input type="text" name="aes" id="aes" value="" placeholder="AES-256" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>DES</h4>
+								<input type="text" name="des" id="des" value="" placeholder="DES" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>Triple DES</h4>
+								<input type="text" name="tdes" id="tdes" value="" placeholder="Triple DES" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>Rabbit</h4>
+								<input type="text" name="rabbit" id="rabbit" value="" placeholder="Rabbit" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>RC4</h4>
+								<input type="text" name="rc4" id="rc4" value="" placeholder="RC4" readonly />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>RC4Drop</h4>
+								<input type="text" name="rc4d" id="rc4d" value="" placeholder="RC4Drop" readonly />
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="box">
+					<h3>解密</h3>
+					<form method="post" action="#">
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>Encrypted Data</h4>
+								<input type="text" name="encrypteddata" id="encrypteddata" value="" placeholder="Content" />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="6u 12u(mobilep)">
+								<h4>Passphrase</h4>
+								<input type="text" name="passs" id="passs" value="" placeholder="Passphrase" />
+							</div>
+							<div class="6u 12u(mobilep)">
+								<h4>Algorithm</h4>
+								<div class="select-wrapper">
+									<select name="algorithm" id="algorithm">
+										<option value="aes">AES-256</option>
+										<option value="des">DES</option>
+										<option value="tdes">Triple DES</option>
+										<option value="rabbit">Rabbit</option>
+										<option value="rc4">RC4</option>
+										<option value="rc4d">RC4Drop</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="12u">
+								<h4>Ciphertext</h4>
+								<input type="text" name="ciphertext" id="ciphertext" value="" placeholder="Ciphertext" readonly />
+							</div>
+						</div>
+						
+					</form>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/s3131212/gotyour.pw" class="icon fa-github"><span class="label">Github</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Got Your PW. All rights reserved.</li><li>Design: <a href="http://html5up.net" target="_blank" rel="nofollow">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+	</body>
+</html>
