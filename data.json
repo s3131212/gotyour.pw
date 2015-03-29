@@ -96,6 +96,22 @@
             "descriptions":"\u8cc7\u6e90\u76f8\u7576\u8c50\u5bcc\u800c\u4e14\u5927\u91cf\u7684\u6559\u5b78\u6587"
          },
          {
+            "name":"Exploit Database",
+            "url":"http:\/\/www.exploit-db.com\/",
+            "descriptions":"\u5404\u7a2e\u6700\u65b0\u6f0f\u6d1e\u7684\u8ffd\u8e64\u53ca POC"
+         },
+         {
+            "name":"\u8cc7\u5b89\u4eba",
+            "url":"http:\/\/www.informationsecurity.com.tw\/main\/index.aspx",
+            "descriptions":"\u53f0\u7063\u7684\u8cc7\u5b89\u65b0\u805e\u53ca\u77e5\u8b58\u5eab"
+            
+         },
+         {
+            "name":"iThome",
+            "url":"http:\/\/www.ithome.com.tw\/",
+            "descriptions":"\u53f0\u7063 IT \u65b0\u805e\u7db2\u7ad9\uff0c\u6709\u8c50\u5bcc\u7684\u8cc7\u5b89\u53ca\u5176\u4ed6\u9818\u57df\u7684\u65b0\u805e\u8207\u6574\u7406"
+         },
+         {
             "name":"FreeBuf",
             "url":"http:\/\/www.freebuf.com\/",
             "descriptions":"\u95dc\u6ce8\u9ed1\u5ba2\u8207\u8cc7\u5b89\u65b0\u805e\u7684\u7db2\u7ad9"
