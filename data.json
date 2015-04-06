@@ -104,7 +104,7 @@
             "name":"\u8cc7\u5b89\u4eba",
             "url":"http:\/\/www.informationsecurity.com.tw\/main\/index.aspx",
             "descriptions":"\u53f0\u7063\u7684\u8cc7\u5b89\u65b0\u805e\u53ca\u77e5\u8b58\u5eab"
-            
+
          },
          {
             "name":"iThome",
@@ -215,7 +215,7 @@
          {
             "name":"alert(1) to win",
             "url":"https:\/\/escape.alf.nu\/",
-            "descriptions":"XSS \u7df4\u529f\u623f\uff0c\u89e3\u7b54\u5728\u6b64<\/a>"
+            "descriptions":"XSS \u7df4\u529f\u623f\uff0c\u89e3\u7b54\u5728<a href=\"http://exp.tw/writing/show/38\" target=\"_blank\" rel=\"nofollow\">\u6b64<\/a>"
          },
          {
             "name":"bWAPP",
