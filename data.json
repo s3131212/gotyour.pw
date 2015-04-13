@@ -258,7 +258,7 @@
 				"descriptions":"\u4e00\u500b\u6f0f\u6d1e\u8c50\u5bcc\u7684\u7db2\u7ad9\uff0c\u6700\u9069\u5408\u521d\u5b78\u8005\u5b78\u7fd2\u653b\u64ca \uff08\u9700\u4e0b\u8f09\uff09"
 			}
 		],
-      		"\u6d3b\u52d5":[  
+      		"\u7814\u8A0E\u6703":[
          		{
             			"name":"HITCON",
             			"url":"http:\/\/hitcon.org\/2015\/",
@@ -270,11 +270,16 @@
 		            	"descriptions":"\u53f0\u7063\u7684\u5e74\u5ea6\u8cc7\u5b89\u76db\u6703\u4e4b\u4e00"
 		        },
 		        {
+		            	"name":"DEFCON",
+		            	"url":"https:\/\/www.defcon.org\/",
+		            	"descriptions":"\u4E16\u754C\u4E0A\u6B77\u53F2\u6700\u60A0\u4E45\uFF0C\u6700\u76DB\u5927\u7684\u99ED\u5BA2\u5E74\u6703\/CTF\u4E4B\u4E00"
+		        },
+		        {
 		            	"name":"Blackhat",
 		            	"url":"https:\/\/www.blackhat.com\/",
-		            	"descriptions":"\u570b\u969b\u6700\u5927\u3001\u6700\u91cd\u8981\u7684\u8cc7\u5b89\u5927\u6703"
+		            	"descriptions":"\u570b\u969b\u6700\u5927\u3001\u6700\u91cd\u8981\u7684\u8cc7\u5b89\u5927\u6703\u4e4b\u4e00"
 		        },
-		        {  
+		        {
 		            	"name":"HITB SECURITY CONFERENCE",
 		            	"url":"http:\/\/conference.hitb.org\/",
 		            	"descriptions":"\u7531 HITB \u8209\u8fa6\uff0c\u6bcf\u5e74\u5728\u5409\u9686\u5761\u53ca\u963f\u59c6\u65af\u7279\u4e39\u8209\u8fa6"
