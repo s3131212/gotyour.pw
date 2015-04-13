@@ -49,6 +49,11 @@
 				"descriptions":"\u53e6\u4e00\u500b\u4e0d\u932f\u7684 Cheat Sheet \uff0c\u53f3\u908a\u53ef\u4ee5\u9078\u64c7\u8cc7\u6599\u5eab\u7cfb\u7d71"
 			},
 			{
+				"name":"SQL Injection Cheet Sheet III",
+				"url":"http:\/\/websec.ca\/kb\/sql_injection",
+				"descriptions":"\u4e5f\u662f\u4e00\u500b\u8490\u96c6\u5404\u5927\u8cc7\u6599\u5eab\u7cfb\u7d71\uff0c\u76f8\u7576\u8a73\u76e1\u7684 Cheat Sheet"
+			},
+			{
 				"name":"XSS Cheet Sheet I",
 				"url":"https:\/\/www.owasp.org\/index.php\/XSS_Filter_Evasion_Cheat_Sheet",
 				"descriptions":"OWASP \u7684 XSS Cheat Sheet \uff0c\u8d85\u8a73\u7d30"
@@ -252,6 +257,48 @@
 				"url":"https:\/\/www.owasp.org\/index.php\/Category:OWASP_WebGoat_Project",
 				"descriptions":"\u4e00\u500b\u6f0f\u6d1e\u8c50\u5bcc\u7684\u7db2\u7ad9\uff0c\u6700\u9069\u5408\u521d\u5b78\u8005\u5b78\u7fd2\u653b\u64ca \uff08\u9700\u4e0b\u8f09\uff09"
 			}
-		]
-	}
+		],
+      		"\u6d3b\u52d5":[  
+         		{
+            			"name":"HITCON",
+            			"url":"http:\/\/hitcon.org\/2015\/",
+			        "descriptions":"\u53f0\u7063\u6700\u5927\u7684\u99ed\u5ba2\u8207\u8cc7\u5b89\u6280\u8853\u7814\u8a0e\u6703\u4e4b\u4e00\uff0c\u65bc\u6bcf\u5e74\u516b\u6708\u5728\u53f0\u5317\u8209\u8fa6"
+			},
+		        {
+		            	"name":"\u53f0\u7063\u8cc7\u8a0a\u5b89\u5168\u5927\u6703",
+		            	"url":"http:\/\/infosec.ithome.com.tw\/",
+		            	"descriptions":"\u53f0\u7063\u7684\u5e74\u5ea6\u8cc7\u5b89\u76db\u6703\u4e4b\u4e00"
+		        },
+		        {
+		            	"name":"Blackhat",
+		            	"url":"https:\/\/www.blackhat.com\/",
+		            	"descriptions":"\u570b\u969b\u6700\u5927\u3001\u6700\u91cd\u8981\u7684\u8cc7\u5b89\u5927\u6703"
+		        },
+		        {  
+		            	"name":"HITB SECURITY CONFERENCE",
+		            	"url":"http:\/\/conference.hitb.org\/",
+		            	"descriptions":"\u7531 HITB \u8209\u8fa6\uff0c\u6bcf\u5e74\u5728\u5409\u9686\u5761\u53ca\u963f\u59c6\u65af\u7279\u4e39\u8209\u8fa6"
+		        },
+		        {
+		            	"name":"COUNTERMEASURE",
+		        	"url":"http:\/\/www.countermeasure.ca\/",
+		            	"descriptions":"\u6bcf\u5e74\u65bc\u6e25\u592a\u83ef\u8209\u8fa6"
+		        },
+		        {
+			 	"name":"POC",
+			        "url":"http:\/\/www.powerofcommunity.net\/index.htm",
+			        "descriptions":"\u65bc\u97d3\u570b\u9996\u723e\u8209\u8fa6\u7684\u8cc7\u5b89\u5927\u6703"
+		        },
+		        {
+		            	"name":"44CON",
+		            	"url":"http:\/\/44con.com\/",
+		            	"descriptions":"\u5728\u82f1\u570b\u502b\u6566\uff0c\u8209\u8fa6 44CON Cyber Security \u548c 44CON London \u5169\u5927\u8cc7\u5b89\u76db\u6703"
+		        },
+		        {
+		            	"name":"SyScan",
+		            	"url":"https:\/\/www.syscan.org\/",
+		            	"descriptions":"\u65bc\u65b0\u52a0\u5761\u7684\u8cc7\u5b89\u6703\u8b70"
+		        }
+      		]
+   	}
 ]
