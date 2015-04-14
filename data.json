@@ -269,6 +269,11 @@
             			"url":"http:\/\/hitcon.org\/2015\/",
 			        "descriptions":"\u53f0\u7063\u6700\u5927\u7684\u99ed\u5ba2\u8207\u8cc7\u5b89\u6280\u8853\u7814\u8a0e\u6703\u4e4b\u4e00\uff0c\u65bc\u6bcf\u5e74\u516b\u6708\u5728\u53f0\u5317\u8209\u8fa6"
 			},
+				{
+		            	"name":"HoneyCon",
+		            	"url":"http:\/\/2015.honeynet.org.tw\/",
+		            	"descriptions":"\u53f0\u7063\u8a98\u6355\u7db2\u8def\u6280\u8853\u7814\u8a0e\u6703\uff0c\u662f\u53f0\u7063\u7684\u8cc7\u5b89\u5e74\u6703\u4e4b\u4e00"
+		        },
 		        {
 		            	"name":"\u53f0\u7063\u8cc7\u8a0a\u5b89\u5168\u5927\u6703",
 		            	"url":"http:\/\/infosec.ithome.com.tw\/",
