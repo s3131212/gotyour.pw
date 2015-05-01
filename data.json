@@ -35,12 +35,27 @@
 				"name":"EC-Council CHFI",
 				"url":"https:\/\/www.dropbox.com\/sh\/o6833kp05a903pg\/AAAZJxlUp3zP0OWR4N3s5JTia?dl=0",
 				"descriptions":"EC-Council CHFI \u6559\u6750\u4e0b\u8f09"
+			},
+			{
+				"name":"\u9006\u5411\u5de5\u7a0b\u96fb\u5b50\u66f8\u6574\u7406",
+				"url":"https:\/\/mega.co.nz\/#!5ccB2KZC!IysjFdbjGqR9ovmGmJwMGlel4vfpj14PIJhDT-PfzJs",
+				"descriptions":"\u76f8\u7576\u8c50\u5bcc\u7684\u9006\u5411\u5de5\u7a0b\u76f8\u95dc\u7c21\u4e2d\u96fb\u5b50\u66f8\u6574\u7406"
+			},
+			{
+				"name":"\u60e1\u610f\u8edf\u9ad4\u9006\u5411\u5de5\u7a0b\u82f1\u6587\u6559\u5b78",
+				"url":"http:\/\/fumalwareanalysis.blogspot.tw\/p\/malware-analysis-tutorials-reverse.html",
+				"descriptions":"\u4ee5\u9006\u5411\u5de5\u7a0b\u5206\u6790\u60e1\u610f\u8edf\u9ad4\u7684\u82f1\u6587\u6587\u5716\u6559\u5b78"
+			},
+			{
+				"name":"\u5404\u9818\u57df\u96fb\u5b50\u66f8\u6574\u7406",
+				"url":"http:\/\/mirror7.meh.or.id\/",
+				"descriptions":"\u8490\u96c6\u4e86\u5f88\u591a\u9818\u57df\u7684\u82f1\u6587\u96fb\u5b50\u66f8"
 			}
 		],
 		"Cheat Sheet":[
 			{
 				"name":"SQL Injection Cheet Sheet I",
-				"url":"http:\/\/ferruh.mavituna.com\/sql-injection-cheatsheet-oku\/#ByPassingLoginScreens",
+				"url":"http:\/\/ferruh.mavituna.com\/sql-injection-cheatsheet-oku\/",
 				"descriptions":"SQL \u6ce8\u5165 Cheat Sheet"
 			},
 			{
