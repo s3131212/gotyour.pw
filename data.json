@@ -221,6 +221,21 @@
 				"name":"GDB",
 				"url":"https://www.gnu.org/software/gdb/",
 				"descriptions":"也是一個除錯工具，常用於逆向工程"
+			},
+			{
+				"name":"jsnice",
+				"url":"http://www.jsnice.org/",
+				"descriptions":"一個強大的分析引擎，用來協助處理經過壓縮的 JavaScript，自動進行變數重命名"
+			},
+			{
+				"name":"JSDetox",
+				"url":"http://www.relentless-coding.org/projects/jsdetox",
+				"descriptions":"一個強大的分析引擎，用來分析惡意混淆後的 JavaScript，自動還原靜態資料"
+			},
+			{
+				"name":"jsbeautifier",
+				"url":"http://jsbeautifier.org/",
+				"descriptions":"JavaScript / HTML 格式化工具"
 			}
 		],
 		"遊戲/練功房": [
