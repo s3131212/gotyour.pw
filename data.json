@@ -225,7 +225,7 @@
 			{
 				"name":"jsnice",
 				"url":"http://www.jsnice.org/",
-				"descriptions":"一個強大的分析引擎，用來協助處理經過壓縮的 JavaScript，自動進行變數重命名"
+				"descriptions":"一個強大的分析引擎，用來協助處理經過壓縮的 JavaScript，自動進行變數重命名，還能自動分析變數型別，並且加上JSDoc"
 			},
 			{
 				"name":"JSDetox",
