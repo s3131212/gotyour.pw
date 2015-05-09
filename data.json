@@ -278,6 +278,11 @@
 				"name":"WebGoat",
 				"url":"https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project",
 				"description":"一個漏洞豐富的網站，最適合初學者學習攻擊 （需下載）"
+			},
+			{
+				"name":"pwnable.kr",
+				"url":"http://pwnable.kr/",
+				"description":"Pwn 類型的題目，也有 ARM 的東西（key 常常很嘲諷）"
 			}
 		],
 		"研討會": [
