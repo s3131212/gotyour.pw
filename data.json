@@ -111,6 +111,11 @@
 				"description":"美國的資安漏洞網站"
 			},
 			{
+				"name":"安全惡意程式偵測技術研發建置計畫",
+				"url":"http://www.anti-botnet.edu.tw/index.html",
+				"description":"TANet 的保護傘，學術網路的資安資訊分析平台"
+			},
+			{
 				"name":"SecurityFocus",
 				"url":"http://www.securityfocus.com/",
 				"description":"資安新聞網站"
