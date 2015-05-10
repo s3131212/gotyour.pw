@@ -17,7 +17,7 @@ $(document).ready(function (){
         		htmldata += '<ul>';
 
         		$.each(value, function( indexx, valuee ) {
-        			htmldata += '<li><a href="' + valuee.url + '" target="_blank" rel="nofollow">' + valuee.name + '</a><br />' + valuee.descriptions;
+        			htmldata += '<li><a href="' + valuee.url + '" target="_blank" rel="nofollow">' + valuee.name + '</a><br />' + valuee.description;
 				});
 
         		htmldata += '</ul>';
