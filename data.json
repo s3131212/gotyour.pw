@@ -55,6 +55,11 @@
 				"name":"對岸黑客書籍整理",
 				"url":"https://drive.google.com/folderview?id=0B5AIGHn0trBXfk5FMTJJV2FPUnB2RzZMdDBUU1RZdXlaSEJpenhhbVZrbUVJTFVlRlduazA&usp=sharing",
 				"description":"一大堆對岸簡體中文的黑客相關書籍"
+			},
+			{
+				"name":"逆向工程教學",
+				"url":"http://expdev-kiuhnm.rhcloud.com/2015/05/11/contents/",
+				"description":"一個詳細介紹逆向工程的原理、運用及 0day 應用的英文教學"
 			}
 		],
 		"Cheat Sheet": [
