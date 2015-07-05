@@ -293,6 +293,11 @@
 				"name":"pwnable.kr",
 				"url":"http://pwnable.kr/",
 				"description":"Pwn 類型的題目，也有 ARM 的東西（key 常常很嘲諷）"
+			},
+			{
+				"name":"Hacker Experience",
+				"url":"http://hackerexperience.com/index",
+				"description":"一個模擬黑客體驗的遊戲，可以升級硬體設備、完成派發任務還有升級防禦軟體等多種玩法!"
 			}
 		],
 		"研討會": [
