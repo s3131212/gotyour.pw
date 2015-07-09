@@ -298,6 +298,11 @@
 				"name":"Hacker Experience",
 				"url":"http://hackerexperience.com/index",
 				"description":"一個模擬黑客體驗的遊戲，可以升級硬體設備、完成派發任務還有升級防禦軟體等多種玩法!"
+			},
+			{
+				"name":"Hacker Game By BlackHost",
+				"url":"http://www.blackhost.xyz/?id=gms",
+				"description":"初學者推薦，能學到HTML、JavaScript、表單POST，在各種地方藏密碼的找密碼遊戲"
 			}
 		],
 		"研討會": [
