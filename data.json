@@ -153,8 +153,12 @@
 			{
 				"name":"FreeBuf",
 				"url":"http://www.freebuf.com/",
-				"description":"關注黑客與資安新聞的網站"
+				"description":"關注黑客與資安新聞的中國網站"
 			},
+			{
+				"name":"Hacker News",
+				"url":"http://thehackernews.com/",
+				"description":"關於資安的新聞網站"}
 			{
 				"name":"VulReport",
 				"url":"https://vulreport.net/",
