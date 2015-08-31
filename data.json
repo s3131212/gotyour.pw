@@ -308,6 +308,11 @@
 				"name":"Hacker Game By BlackHost",
 				"url":"http://www.blackhost.xyz/?id=gms",
 				"description":"初學者推薦，能學到HTML、JavaScript、表單POST，在各種地方藏密碼的找密碼遊戲"
+			},
+			{
+				"name":"Damn Vulnerable Web Application",
+				"url":"http://www.dvwa.co.uk/",
+				"description":"PHP/MySQL web application 的入門弱點練習包，內附有一些連結教學提示&原始碼"
 			}
 		],
 		"研討會": [
