@@ -183,6 +183,11 @@
 				"description":"自動化 SQL Injection 工具"
 			},
 			{
+				"name":"commix",
+				"url":"https://github.com/stasinopoulos/commix",
+				"description":"自動化 Command Injection 測試工具"
+			},
+			{
 				"name":"Nmap",
 				"url":"http://nmap.org/",
 				"description":"自動化掃描工具"
