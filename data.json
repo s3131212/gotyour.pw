@@ -256,6 +256,11 @@
 				"name": "jsbeautifier",
 				"url": "http://jsbeautifier.org/",
 				"description": "JavaScript / HTML 格式化工具"
+			},
+			{
+				"name": "Awesome Honeypots",
+				"url": "https://github.com/paralax/awesome-honeypots",
+				"description": "一些好用而強大的 Honeypots 整理"
 			}
 		],
 		"遊戲/練功房": [
