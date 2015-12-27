@@ -62,38 +62,6 @@
 				"description": "一個詳細介紹逆向工程的原理、運用及 0day 應用的英文教學"
 			}
 		],
-		"Cheat Sheet": [
-			{
-				"name": "SQL Injection Cheet Sheet I",
-				"url": "http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/",
-				"description": "SQL 注入 Cheat Sheet"
-			},
-			{
-				"name": "SQL Injection Cheet Sheet II",
-				"url": "http://www.sqlinjectionwiki.com/Categories/2/mysql-sql-injection-cheat-sheet/",
-				"description": "另一個不錯的 Cheat Sheet ，右邊可以選擇資料庫系統"
-			},
-			{
-				"name": "SQL Injection Cheet Sheet III",
-				"url": "http://websec.ca/kb/sql_injection",
-				"description": "也是一個蒐集各大資料庫系統，相當詳盡的 Cheat Sheet"
-			},
-			{
-				"name": "XSS Cheet Sheet I",
-				"url": "https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet",
-				"description": "OWASP 的 XSS Cheat Sheet ，超詳細"
-			},
-			{
-				"name": "XSS Cheet Sheet II",
-				"url": "http://www.xenuser.org/xss-cheat-sheet/",
-				"description": "簡略的 XSS Cheat Sheet"
-			},
-			{
-				"name": "XSS Cheet Sheet for HTML5",
-				"url": "https://html5sec.org/",
-				"description": "專門給 HTML5 的 XSS Cheat Sheet"
-			}
-		],
 		"網站": [
 			{
 				"name": "exp.tw",
@@ -174,6 +142,103 @@
 				"name": "漏洞盒子",
 				"url": "https://www.vulbox.com/",
 				"description": "一個全民挖漏洞領獎金（？）的漏洞通報平台"
+			}
+		],
+		"書籍推薦": [
+			{
+				"name": "黑帽 Python：給駭客與滲透測試者的 Python 開發指南",
+				"url": "http://www.books.com.tw/products/0010692666?",
+				"description": ""
+			},
+			{
+				"name": "The Browser Hacker’s Handbook駭客攻防聖經",
+				"url": "http://www.books.com.tw/products/0010697765",
+				"description": ""
+			},
+			{
+				"name": "Windows軟體安全實務：緩衝區溢位攻擊",
+				"url": "http://www.books.com.tw/products/0010689881",
+				"description": ""
+			},
+			{
+				"name": "Android Hacker’s Handbook駭客攻防聖經",
+				"url": "http://www.books.com.tw/products/0010687507",
+				"description": ""
+			},
+			{
+				"name": "網路竟然這麼危險！：阿里巴巴首席安全專家教你全方位保護網站(第2版)",
+				"url": "http://www.books.com.tw/products/0010666977",
+				"description": ""
+			},
+			{
+				"name": "XSS網站安全技術與實務：防護解密剖析大進擊",
+				"url": "http://www.books.com.tw/products/0010640829",
+				"description": ""
+			},
+			{
+				"name": "Web 2.0駭客技術揭密",
+				"url": "http://www.books.com.tw/products/0010611924",
+				"description": ""
+			},
+			{
+				"name": "黑客攻防技術寶典：Web實戰篇",
+				"url": "http://www.books.com.tw/products/CN10460536",
+				"description": ""
+			},
+			{
+				"name": "黑客攻防技術寶典：iOS實戰篇",
+				"url": "http://www.books.com.tw/products/CN11044914",
+				"description": ""
+			},
+			{
+				"name": "黑客攻防技術寶典︰系統實戰篇",
+				"url": "http://www.books.com.tw/products/CN10438690",
+				"description": ""
+			},
+			{
+				"name": "SQL注入攻擊與防御(第2版)",
+				"url": "http://www.books.com.tw/products/CN11060479",
+				"description": ""
+			},
+			{
+				"name": "Metasploit滲透測試與開發實踐指南",
+				"url": "http://www.books.com.tw/products/CN11193135",
+				"description": ""
+			},
+			{
+				"name": "安全軟件開發之道：構築軟件安全的本質方法",
+				"url": "http://www.books.com.tw/products/CN11102375",
+				"description": ""
+			},
+			{
+				"name": "Rootkit:系統灰色地帶的潛伏者",
+				"url": "http://www.books.com.tw/products/CN11057667",
+				"description": ""
+			},
+			{
+				"name": "加密與解密",
+				"url": "http://www.books.com.tw/products/CN10150455",
+				"description": ""
+			},
+			{
+				"name": "黑客大曝光：移動應用安全揭秘及防護措施",
+				"url": "http://www.books.com.tw/products/CN11194839",
+				"description": ""
+			},
+			{
+				"name": "網站安全攻防秘笈：防御黑客和保護用戶的100條超級策略",
+				"url": "http://www.books.com.tw/products/CN11182115",
+				"description": ""
+			},
+			{
+				"name": "黑客大曝光：移動應用安全揭秘及防護措施",
+				"url": "http://www.books.com.tw/products/CN11194839",
+				"description": ""
+			},
+			{
+				"name": "Web應用漏洞偵測與防御：揭秘鮮為人知的攻擊手段和防御技術",
+				"url": "http://www.books.com.tw/products/CN11158111",
+				"description": ""
 			}
 		],
 		"工具": [
@@ -393,6 +458,38 @@
 				"url": "http://www.path8.net/tn/archives/3998",
 				"description": "PHP 完了換 ASP 一句話後門"
 			}
-		]
+		],
+		"Cheat Sheet": [
+			{
+				"name": "SQL Injection Cheet Sheet I",
+				"url": "http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/",
+				"description": "SQL 注入 Cheat Sheet"
+			},
+			{
+				"name": "SQL Injection Cheet Sheet II",
+				"url": "http://www.sqlinjectionwiki.com/Categories/2/mysql-sql-injection-cheat-sheet/",
+				"description": "另一個不錯的 Cheat Sheet ，右邊可以選擇資料庫系統"
+			},
+			{
+				"name": "SQL Injection Cheet Sheet III",
+				"url": "http://websec.ca/kb/sql_injection",
+				"description": "也是一個蒐集各大資料庫系統，相當詳盡的 Cheat Sheet"
+			},
+			{
+				"name": "XSS Cheet Sheet I",
+				"url": "https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet",
+				"description": "OWASP 的 XSS Cheat Sheet ，超詳細"
+			},
+			{
+				"name": "XSS Cheet Sheet II",
+				"url": "http://www.xenuser.org/xss-cheat-sheet/",
+				"description": "簡略的 XSS Cheat Sheet"
+			},
+			{
+				"name": "XSS Cheet Sheet for HTML5",
+				"url": "https://html5sec.org/",
+				"description": "專門給 HTML5 的 XSS Cheat Sheet"
+			}
+		],
 	}
 ]
