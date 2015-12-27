@@ -62,88 +62,6 @@
 				"description": "一個詳細介紹逆向工程的原理、運用及 0day 應用的英文教學"
 			}
 		],
-		"網站": [
-			{
-				"name": "exp.tw",
-				"url": "http://exp.tw/",
-				"description": "由 Orange 大神建立的資安網站，自動蒐集各大大神的動態、文章及一些知識分享"
-			},
-			{
-				"name": "Packet Storm",
-				"url": "http://packetstormsecurity.com/",
-				"description": "資安新聞網站"
-			},
-			{
-				"name": "CVE Details",
-				"url": "http://www.cvedetails.com/",
-				"description": "CVE 漏洞詳細資料及整理"
-			},
-			{
-				"name": "National Vulnerability Database",
-				"url": "https://nvd.nist.gov/",
-				"description": "美國的資安漏洞網站"
-			},
-			{
-				"name": "安全惡意程式偵測技術研發建置計畫",
-				"url": "http://www.anti-botnet.edu.tw/index.html",
-				"description": "TANet 的保護傘，學術網路的資安資訊分析平台"
-			},
-			{
-				"name": "SecurityFocus",
-				"url": "http://www.securityfocus.com/",
-				"description": "資安新聞網站"
-			},
-			{
-				"name": "Security Alley",
-				"url": "http://securityalley.blogspot.tw/",
-				"description": "資源相當豐富而且大量的教學文"
-			},
-			{
-				"name": "Exploit Database",
-				"url": "http://www.exploit-db.com/",
-				"description": "各種最新漏洞的追蹤及 PoC"
-			},
-			{
-				"name": "1337day",
-				"url": "http://www.1337day.com/",
-				"description": "PoC 交易黑市及漏洞使用範例"
-			},
-			{
-				"name": "資安人",
-				"url": "http://www.informationsecurity.com.tw/main/index.aspx",
-				"description": "台灣的資安新聞及知識庫"
-			},
-			{
-				"name": "iThome",
-				"url": "http://www.ithome.com.tw/",
-				"description": "台灣 IT 新聞網站，有豐富的資安及其他領域的新聞與整理"
-			},
-			{
-				"name": "FreeBuf",
-				"url": "http://www.freebuf.com/",
-				"description": "關注黑客與資安新聞的中國網站"
-			},
-			{
-				"name": "Hacker News",
-				"url": "http://thehackernews.com/",
-				"description": "關於資安的新聞網站"
-			},
-			{
-				"name": "VulReport",
-				"url": "https://vulreport.net/",
-				"description": "由 HITCON 發起並支持的漏洞通報平台"
-			},
-			{
-				"name": "WooYun.org 烏雲網",
-				"url": "http://www.wooyun.org/",
-				"description": "中國的漏洞通報平台"
-			},
-			{
-				"name": "漏洞盒子",
-				"url": "https://www.vulbox.com/",
-				"description": "一個全民挖漏洞領獎金（？）的漏洞通報平台"
-			}
-		],
 		"書籍推薦": [
 			{
 				"name": "黑帽 Python：給駭客與滲透測試者的 Python 開發指南",
@@ -239,6 +157,88 @@
 				"name": "Web應用漏洞偵測與防御：揭秘鮮為人知的攻擊手段和防御技術",
 				"url": "http://www.books.com.tw/products/CN11158111",
 				"description": ""
+			}
+		],
+		"網站": [
+			{
+				"name": "exp.tw",
+				"url": "http://exp.tw/",
+				"description": "由 Orange 大神建立的資安網站，自動蒐集各大大神的動態、文章及一些知識分享"
+			},
+			{
+				"name": "Packet Storm",
+				"url": "http://packetstormsecurity.com/",
+				"description": "資安新聞網站"
+			},
+			{
+				"name": "CVE Details",
+				"url": "http://www.cvedetails.com/",
+				"description": "CVE 漏洞詳細資料及整理"
+			},
+			{
+				"name": "National Vulnerability Database",
+				"url": "https://nvd.nist.gov/",
+				"description": "美國的資安漏洞網站"
+			},
+			{
+				"name": "安全惡意程式偵測技術研發建置計畫",
+				"url": "http://www.anti-botnet.edu.tw/index.html",
+				"description": "TANet 的保護傘，學術網路的資安資訊分析平台"
+			},
+			{
+				"name": "SecurityFocus",
+				"url": "http://www.securityfocus.com/",
+				"description": "資安新聞網站"
+			},
+			{
+				"name": "Security Alley",
+				"url": "http://securityalley.blogspot.tw/",
+				"description": "資源相當豐富而且大量的教學文"
+			},
+			{
+				"name": "Exploit Database",
+				"url": "http://www.exploit-db.com/",
+				"description": "各種最新漏洞的追蹤及 PoC"
+			},
+			{
+				"name": "1337day",
+				"url": "http://www.1337day.com/",
+				"description": "PoC 交易黑市及漏洞使用範例"
+			},
+			{
+				"name": "資安人",
+				"url": "http://www.informationsecurity.com.tw/main/index.aspx",
+				"description": "台灣的資安新聞及知識庫"
+			},
+			{
+				"name": "iThome",
+				"url": "http://www.ithome.com.tw/",
+				"description": "台灣 IT 新聞網站，有豐富的資安及其他領域的新聞與整理"
+			},
+			{
+				"name": "FreeBuf",
+				"url": "http://www.freebuf.com/",
+				"description": "關注黑客與資安新聞的中國網站"
+			},
+			{
+				"name": "Hacker News",
+				"url": "http://thehackernews.com/",
+				"description": "關於資安的新聞網站"
+			},
+			{
+				"name": "VulReport",
+				"url": "https://vulreport.net/",
+				"description": "由 HITCON 發起並支持的漏洞通報平台"
+			},
+			{
+				"name": "WooYun.org 烏雲網",
+				"url": "http://www.wooyun.org/",
+				"description": "中國的漏洞通報平台"
+			},
+			{
+				"name": "漏洞盒子",
+				"url": "https://www.vulbox.com/",
+				"description": "一個全民挖漏洞領獎金（？）的漏洞通報平台"
 			}
 		],
 		"工具": [
