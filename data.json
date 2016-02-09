@@ -27,39 +27,14 @@
 				"description": "簡單易懂的英文教學影片"
 			},
 			{
-				"name": "EC-Council ENSA",
-				"url": "https://www.dropbox.com/sh/qohk0tx8qmwxdxw/AACa3ygwb2gEIRXqwV5dtHJTa?dl=0",
-				"description": "EC-Council ENSA 教材下載"
-			},
-			{
-				"name": "EC-Council CHFI",
-				"url": "https://www.dropbox.com/sh/o6833kp05a903pg/AAAZJxlUp3zP0OWR4N3s5JTia?dl=0",
-				"description": "EC-Council CHFI 教材下載"
-			},
-			{
-				"name": "逆向工程電子書整理",
-				"url": "https://mega.co.nz/#!5ccB2KZC!IysjFdbjGqR9ovmGmJwMGlel4vfpj14PIJhDT-PfzJs",
-				"description": "相當豐富的逆向工程相關簡中電子書整理"
-			},
-			{
 				"name": "惡意軟體逆向工程英文教學",
 				"url": "http://fumalwareanalysis.blogspot.tw/p/malware-analysis-tutorials-reverse.html",
 				"description": "以逆向工程分析惡意軟體的英文文圖教學"
 			},
 			{
-				"name": "各領域電子書整理",
-				"url": "http://mirror7.meh.or.id/",
-				"description": "蒐集了很多領域的英文電子書"
-			},
-			{
-				"name": "對岸黑客書籍整理",
-				"url": "https://drive.google.com/folderview?id=0B5AIGHn0trBXfk5FMTJJV2FPUnB2RzZMdDBUU1RZdXlaSEJpenhhbVZrbUVJTFVlRlduazA&usp=sharing",
-				"description": "一大堆對岸簡體中文的黑客相關書籍"
-			},
-			{
-				"name": "逆向工程教學",
-				"url": "http://expdev-kiuhnm.rhcloud.com/2015/05/11/contents/",
-				"description": "一個詳細介紹逆向工程的原理、運用及 0day 應用的英文教學"
+				"name": "Security Alley",
+				"url": "http://securityalley.blogspot.tw/",
+				"description": "資源相當豐富而且大量的教學文"
 			}
 		],
 		"書籍推薦": [
@@ -95,7 +70,7 @@
 			},
 			{
 				"name": "Web 2.0駭客技術揭密",
-				"url": "http://www.books.com.tw/products/0010611924",
+				"url": "http://www.kingstone.com.tw/3hrs/book_page.asp?kmcode=2013120263086",
 				"description": ""
 			},
 			{
@@ -189,11 +164,6 @@
 				"name": "SecurityFocus",
 				"url": "http://www.securityfocus.com/",
 				"description": "資安新聞網站"
-			},
-			{
-				"name": "Security Alley",
-				"url": "http://securityalley.blogspot.tw/",
-				"description": "資源相當豐富而且大量的教學文"
 			},
 			{
 				"name": "Exploit Database",
