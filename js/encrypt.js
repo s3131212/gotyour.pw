@@ -1,31 +1,31 @@
 $(document).ready(function(){
-    $('#content , #pass').on('input change',function(){
+    $('#content , #pass, #en_method, #en_padding').on('input change keydown keyup keypress',function(){
         var data = $('#content').val();
         var pass = $('#pass').val();
-        $('#aes').val(CryptoJS.AES.encrypt(data, pass));
-        $('#des').val(CryptoJS.DES.encrypt(data, pass));
-        $('#tdes').val(CryptoJS.TripleDES.encrypt(data, pass));
+        $('#aes').val(CryptoJS.AES.encrypt(data, pass, { mode: CryptoJS.mode[$('#en_method').val()], padding: CryptoJS.pad[$('#en_padding').val()] }));
+        $('#des').val(CryptoJS.DES.encrypt(data, pass, { mode: CryptoJS.mode[$('#en_method').val()], padding: CryptoJS.pad[$('#en_padding').val()] }));
+        $('#tdes').val(CryptoJS.TripleDES.encrypt(data, pass ,{ mode: CryptoJS.mode[$('#en_method').val()], padding: CryptoJS.pad[$('#en_padding').val()] }));
         $('#rabbit').val(CryptoJS.Rabbit.encrypt(data, pass));
         $('#rc4').val(CryptoJS.RC4.encrypt(data, pass));
         $('#rc4d').val(CryptoJS.RC4Drop.encrypt(data, pass));
     });
-    $('#encrypteddata , #passs , #algorithm').on('input change',function(){
-        var data = $('#encrypteddata').val();
+    $('#ciphertext , #passs , #algorithm, #de_method, #de_padding').on('input change keydown keyup keypress',function(){
+        var data = $('#ciphertext').val();
         var pass = $('#passs').val();
-        var ciphertext;
+        var plaintext;
         if($('#algorithm').val() == "aes"){
-            ciphertext = CryptoJS.AES.decrypt(data, pass).toString( CryptoJS.enc.Utf8 );
+            plaintext = CryptoJS.AES.decrypt(data, pass, { mode: CryptoJS.mode[$('#de_method').val()], padding: CryptoJS.pad[$('#de_padding').val()] }).toString( CryptoJS.enc.Utf8 );
         }else if($('#algorithm').val() == "des"){
-            ciphertext = CryptoJS.DES.decrypt(data, pass).toString( CryptoJS.enc.Utf8 );
+            plaintext = CryptoJS.DES.decrypt(data, pass, { mode: CryptoJS.mode[$('#de_method').val()], padding: CryptoJS.pad[$('#de_padding').val()] }).toString( CryptoJS.enc.Utf8 );
         }else if($('#algorithm').val() == "tdes"){
-            ciphertext = CryptoJS.TripleDES.decrypt(data, pass).toString( CryptoJS.enc.Utf8 );
+            plaintext = CryptoJS.TripleDES.decrypt(data, pass, { mode: CryptoJS.mode[$('#de_method').val()], padding: CryptoJS.pad[$('#de_padding').val()] }).toString( CryptoJS.enc.Utf8 );
         }else if($('#algorithm').val() == "rabbit"){
-            ciphertext = CryptoJS.Rabbit.decrypt(data, pass).toString( CryptoJS.enc.Utf8 );
+            plaintext = CryptoJS.Rabbit.decrypt(data, pass).toString( CryptoJS.enc.Utf8 );
         }else if($('#algorithm').val() == "rc4"){
-            ciphertext = CryptoJS.RC4.decrypt(data, pass).toString( CryptoJS.enc.Utf8 );
+            plaintext = CryptoJS.RC4.decrypt(data, pass).toString( CryptoJS.enc.Utf8 );
         }else if($('#algorithm').val() == "rc4d"){
-            ciphertext = CryptoJS.RC4Drop.decrypt(data, pass).toString( CryptoJS.enc.Utf8 );
+            plaintext = CryptoJS.RC4Drop.decrypt(data, pass).toString( CryptoJS.enc.Utf8 );
         }
-        $('#ciphertext').val(ciphertext);
+        $('#plaintext').val(plaintext);
     });
 });

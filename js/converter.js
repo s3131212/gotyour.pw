@@ -182,35 +182,35 @@ function htmldecode(str) {
 };
 
 $(document).ready(function(){
-    $('#plain').on('keydown paste',function(){
+    $('#plain').on('input change keydown keyup keypress',function(){
         var data = $(this).val();
         $('#url').val(urlencode(data));
         $('#html').val(htmlencode(data, 'hexadecimal'));
         $('#decimal').val(htmlencode(data, 'decimal'));
         $('#base64').val(base64encode(data));
     });
-    $('#url').on('keydown paste',function(){
+    $('#url').on('input change keydown keyup keypress',function(){
         var data = urldecode($(this).val());
         $('#plain').val(data);
         $('#html').val(htmlencode(data, 'hexadecimal'));
         $('#decimal').val(htmlencode(data, 'decimal'));
         $('#base64').val(base64encode(data));
     });
-    $('#html').on('keydown paste',function(){
+    $('#html').on('input change keydown keyup keypress',function(){
         var data = htmldecode($(this).val());
         $('#url').val(data);
         $('#plain').val(data);
         $('#decimal').val(htmlencode(data, 'decimal'));
         $('#base64').val(base64encode(data));
     });
-    $('#decimal').on('keydown paste',function(){
+    $('#decimal').on('input change keydown keyup keypress',function(){
         var data = htmldecode($(this).val());
         $('#url').val(data);
         $('#html').val(htmlencode(data, 'hexadecimal'));
         $('#plain').val(data);
         $('#base64').val(base64encode(data));
     });
-    $('#base64').on('keydown paste',function(){
+    $('#base64').on('input change keydown keyup keypress',function(){
         var data = base64decode($(this).val());
         $('#url').val(urlencode(data));
         $('#html').val(htmlencode(data, 'hexadecimal'));

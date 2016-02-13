@@ -1,0 +1,400 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>抓周 - Got Your PW</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="title" content="Got Your PW" />
+	<meta name="description" content="Got Your PW 是一個簡易的資安資源網站，包含常用的工具，適合初學者的入門教材，和許多值得追蹤的資安相關網站。" />
+	<meta name="robots" content="index, follow" />
+	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script async src="js/jquery.dropotron.min.js"></script>
+	<script async src="js/jquery.scrollgress.min.js"></script>
+	<script async src="js/skel-layers.min.js"></script>
+	<script async src="js/init.js"></script>
+	<script async src="js/ga.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('[data-grab]').on('click', function (e) {
+				e.preventDefault();
+				$this = $(this);
+				$('.show').fadeOut(400, function(){
+					$('.show').removeClass('show');
+					$('#grab-' + $this.attr('data-grab')).fadeIn(400).addClass('show');
+					if($this.attr('data-grab') == '5'){
+						$('#tab-1').fadeIn(400).addClass('show');
+					}
+				});
+			});
+		});
+		$(document).ready(function () {
+			$('[data-tab]').on('click', function (e){
+				e.preventDefault();
+				$this = $(this);
+				$('.special[data-tab]').removeClass('special');
+				$('[data-tab=' + $this.attr('data-tab') + ']').addClass('special');
+				console.log($this.attr('data-tab'));
+				$('.tab.show').fadeOut(400, function(){
+					$(this).removeClass('show');
+					$('#tab-' + $this.attr('data-tab')).fadeIn(400).addClass('show');
+				});
+			});
+		});
+	</script>
+	<link rel="stylesheet" href="css/loading.css" />
+	<style>
+		.grab-img {
+			width: 200px;
+			height: 200px
+		}
+		
+		.grab-item {
+			transition: transform .1s linear;
+		}
+		
+		.grab-item:hover {
+			transform: scale(1.1, 1.1);
+			transition: transform .1s linear;
+			cursor: pointer
+		}
+		
+		.grab,
+		.tab {
+			display: none;
+		}
+		
+		.tab {
+			text-align: left
+		}
+		
+		.show {
+			display: block;
+		}
+	</style>
+	<noscript>
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-wide.css" />
+	</noscript>
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+</head>
+
+<body class="landing">
+	<!-- Header -->
+	<header id="header" class="alt">
+		<h1><a href="index.html">Got Your PW</a></h1>
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html">首頁</a></li>
+				<li><a href="about.html">關於我們</a></li>
+				<li><a href="grab.html">抓周</a></li>
+				<li><a href="resources.html">資源</a></li>
+				<li>
+					<a href="" class="icon fa-angle-down">工具</a>
+					<ul>
+						<li><a href="converter.html">編碼轉換</a></li>
+						<li><a href="hash.html">Hash 生成</a></li>
+						<li><a href="encrypt.html">加密 / 解密</a></li>
+					</ul>
+				</li>
+				<li><a href="https://github.com/s3131212/gotyour.pw" class="button" target="_blank">GitHub Repo</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Banner -->
+	<section id="banner">
+		<h2>抓周</h2>
+		<p>來測測看你需要的資源是什麼！</p>
+	</section>
+
+	<!-- Main -->
+	<section id="main" class="container">
+		<div class="box special">
+			<div class="grab show" id="grab-1">
+				<h3>你為什麼想學資安？</h3>
+				<div class="row">
+					<div class="6u 12u(mobilep)">
+						<div class="grab-item" data-grab="2">
+							<img src="images/grab/shield.svg" class="grab-img">
+							<h3>增進自己的能力</h3>
+						</div>
+					</div>
+					<div class="6u 12u(mobilep)">
+						<div class="grab-item" data-grab="3">
+							<img src="images/grab/hacker.svg" class="grab-img">
+							<h3>成為駭客統治世界</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="grab" id="grab-2">
+				<header class="major">
+					<i class="fa fa-code fa-5x"></i>
+					<h3>你會寫程式嗎？</h3>
+					<div class="row">
+						<div class="6u 12u(mobilep)">
+							<section>
+								<button class="button special big fit" data-grab="4">YES，我能獨自寫出我要的功能</button>
+							</section>
+						</div>
+						<div class="6u 12u(mobilep)">
+							<section>
+								<button class="button default big fit" data-grab="7">NO，我完全不會寫程式</button>
+							</section>
+						</div>
+					</div>
+				</header>
+			</div>
+			<div class="grab" id="grab-3">
+				<header class="major">
+					<img src="images/grab/hacker.svg" class="grab-img">
+					<h3>想成為駭客？</h3>
+					<ul style="text-align: left;">
+						<li>台灣
+							<ul>
+								<li>第 358 條：無故輸入他人帳號密碼、破解使用電腦之保護措施或利用電腦系統之漏洞，而入侵他人之電腦或其相關設備者，處三年以下有期徒刑、拘役或科或併科十萬元以下罰金。</li>
+								<li>第 359 條：無故取得、刪除或變更他人電腦或其相關設備之電磁紀錄，致生損害於公眾或他人者，處五年以下有期徒刑、拘役或科或併科二十萬元以下罰金。</li>
+								<li>第 360 條：無故以電腦程式或其他電磁方式干擾他人電腦或其相關設備，致生損害於公眾或他人者，處三年以下有期徒刑、拘役或科或併科十萬元以下罰金。</li>
+								<li>第 361 條：對於公務機關之電腦或其相關設備犯前三條之罪者，加重其刑至二分之一。</li>
+								<li>第 362 條：製作專供犯本章之罪之電腦程式，而供自己或他人犯本章之罪，致生損害於公眾或他人者，處五年以下有期徒刑、拘役或科或併科二十萬元以下罰金。</li>
+								<li>第 363 條：第三百五十八條至第三百六十條之罪，須告訴乃論。</li>
+							</ul>
+						</li>
+						<li>美國
+							<ul>
+								<li><a href="https://www.law.cornell.edu/uscode/text/18/1030">The Computer Fraud and Abuse Act (CFAA)</a></li>
+							</ul>
+						</li>
+					</ul>
+				</header>
+			</div>
+			<div class="grab" id="grab-4">
+				<h3>你學習的目的是？</h3>
+				<div class="row">
+					<div class="6u 12u(mobilep)">
+						<div class="grab-item" data-grab="5">
+							<i class="fa fa-trophy fa-4x"></i>
+							<h3>比賽/興趣</h3>
+						</div>
+					</div>
+					<div class="6u 12u(mobilep)">
+						<div class="grab-item" data-grab="6">
+							<i class="fa fa-briefcase fa-4x"></i>
+							<h3>工作</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="grab" id="grab-5">
+				<section>
+					<h3>推薦資源</h3>
+					<div class="row">
+						<div class="3u 12u(mobilep)">
+							<a href="#" class="button fit special" data-tab="1">綜合</a>
+						</div>
+						<div class="3u 12u(mobilep)">
+							<a href="#" class="button fit" data-tab="2">Web</a>
+						</div>
+						<div class="3u 12u(mobilep)">
+							<a href="#" class="button fit" data-tab="3">Mobile</a>
+						</div>
+						<div class="3u 12u(mobilep)">
+							<a href="#" class="button fit" data-tab="4">Binary / Reversing</a>
+						</div>
+						<div class="3u 12u(mobilep)">
+							<a href="#" class="button fit" data-tab="5">Cryptography</a>
+						</div>
+						<div class="3u 12u(mobilep)">
+							<a href="#" class="button fit" data-tab="6">Forensics</a>
+						</div>
+						<div class="3u 12u(mobilep)">
+							<a href="#" class="button fit" data-tab="7">Network Hacking</a>
+						</div>
+						<div class="3u 12u(mobilep)">
+							<a href="#" class="button fit" data-tab="8">Programming security</a>
+						</div>
+						<div class="tab" id="tab-1">
+							<ul class="c1 lst-kix_n8vm2n9ky7o-1 start">
+								<li><a href="http://www.cybrary.it/&amp;sa=D&amp;ust=1455164922872000&amp;usg=AFQjCNEw50Z9p5YOnkmX7umyH5nmsKj9Yg">Cybrary</a></li>
+								<li><a href="http://opensecuritytraining.info/Training.html&amp;sa=D&amp;ust=1455164922872000&amp;usg=AFQjCNEnfvzwZ-bNRAi_ueCWFJQB3IOWAQ">OpenCourseWare</a></span></li>
+								<li><a href="http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html&amp;sa=D&amp;ust=1455164922873000&amp;usg=AFQjCNEUggyMGpdyekQdvC6KqL95HTVmBg">OffensiveComputerSecurity</a></li>
+								<li><a href="http://irongeek.com&amp;sa=D&amp;ust=1455164922873000&amp;usg=AFQjCNFuXQU_UI60mwF9jKe3uinhzrvWeQ">Irongeek.com</a></li>
+								<li><a href="https://tutorials.cyberaces.org/tutorials&amp;sa=D&amp;ust=1455164922874000&amp;usg=AFQjCNF39woj2bvHlroBiKTy1TXdz2uxqQ">SANS Cyber Aces Online Tutorials</a></li>
+								<li><a href="http://www.pediy.com/kssd/">看雪學院軟體安全資料庫</a></li>
+							</ul>
+						</div>
+						<div class="tab" id="tab-2">
+							<ul>
+								<li>初學
+									<ul>
+										<li><a href="http://www.kingstone.com.tw/book/book_page.asp?kmcode=2013120263086&amp;lid=search&amp;actid=wise">Web 2.0駭客技術揭密</a></li>
+										<li><a href="http://www.books.com.tw/products/0010666977">網路竟然這麼危險！：阿里巴巴首席安全專家教你全方位保護網站(第2版)</a></li>
+									</ul>
+								</li>
+								<li>入門
+									<ul>
+										<li><a href="http://www.books.com.tw/products/CN11060479">SQL注入攻擊與防御</a></li>
+										<li><a href="http://www.books.com.tw/products/0010640829">XSS網站安全技術與實務：防護解密剖析大進擊</a></li>
+										<li><a href="http://www.books.com.tw/products/CN10460536">黑客攻防技术宝典:Web实战篇(第2版)</a></li>
+										<li><a href="http://www.books.com.tw/products/CN11182115">網站安全攻防秘笈：防御黑客和保護用戶的100條超級策略</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab" id="tab-3">
+							<ul>
+								<li>初學
+									<ul>
+										<li><a href="http://www.books.com.tw/products/0010567731">iOS 安全防護</a></li>
+										<li><a href="http://www.books.com.tw/products/CN10977476">Android軟件安全與逆向分析</a></li>
+									</ul>
+								</li>
+								<li>入門
+									<ul>
+										<li><a href="http://www.books.com.tw/products/CN11044914">黑客攻防技術寶典：iOS實戰篇</a></li>
+										<li><a href="http://www.books.com.tw/products/0010687507">Android Hacker’s Handbook駭客攻防聖經</a></li>
+										<li><a href="http://www.books.com.tw/products/CN11194839">黑客大曝光：移動應用安全揭秘及防護措施</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab" id="tab-4">
+							<ul>
+								<li>初學
+									<ul>
+										<li><a href="http://www.books.com.tw/products/0010689881">Windows軟體安全實務：緩衝區溢位攻擊</a></li>
+										<li><a href="http://expdev-kiuhnm.rhcloud.com/2015/05/11/contents/">Exploit Development Community</a></li>
+									</ul>
+								</li>
+								<li>入門
+									<ul>
+										<li><a href="http://books.gotop.com.tw/v_ACN022800">加密與解密 (第三版)</a></li>
+										<li><a href="http://fumalwareanalysis.blogspot.tw/p/malware-analysis-tutorials-reverse.html">Malware Analysis Tutorials: a Reverse Engineering Approach</a>
+										<li><a href="https://www.sans.org/reading-room/whitepapers/forensics/mac-os-malware-analysis-33178">Mac OS X Malware Analysis</a></li>
+										<li><a href="https://www.sans.org/reading-room/whitepapers/forensics/forensic-analysis-ios-devices-34092">Forensic Analysis on iOS Devices</a></li>
+										<li><a href="http://security.cs.rpi.edu/courses/hwre-spring2014/">Hardware Reverse Engineering</a></li>
+										<li><a href="https://www.sans.org/reading-room/whitepapers/testing/ipwn-apps-pentesting-ios-applications-34577">iPwn Apps: Pentesting iOS Applications</a></li>
+										<li><a href="http://securityxploded.com/malware-analysis-training-reference.php">Malware Analysis Training Series</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab" id="tab-5">
+							<ul>
+								<li>初學
+									<ul>
+										<li><a href="http://www.books.com.tw/products/0010666250">認識密碼學的第一本書</a></li>
+										<li><a href="https://council.csie.ntu.edu.tw/cscamp/2014/download/2014cryptography.pdf">臺大椰林資訊營 - Cryptography</a></li>
+									</ul>
+								</li>
+								<li>入門
+									<ul>
+										<li><a href="http://avp.toko.edu.tw/docs/class/3/%E5%AF%86%E7%A2%BC%E5%AD%B8%E5%8E%9F%E7%90%86%E8%88%87%E6%8A%80%E8%A1%93.pdf">密碼學原理與技術</a></li>
+										<li><a href="http://www.books.com.tw/products/CN11220556">抗量子計算密碼</a></li>
+										<li><a href="http://www.m.sanmin.com.tw/Product/Index/002626885">密碼學與網路安全應用</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab" id="tab-6">
+							<ul>
+								<li>初學
+									<ul>
+										<li><a href="http://www.books.com.tw/products/0010704450">網站入侵現場鑑證實錄</a></li>
+									</ul>
+								</li>
+								<li>入門
+									<ul>
+										<li><a href="https://www.sans.org/reading-room/whitepapers/forensics/mac-os-malware-analysis-33178">Mac OS X Malware Analysis</a></li>
+										<li><a href="http://fumalwareanalysis.blogspot.tw/p/malware-analysis-tutorials-reverse.html">Malware Analysis Tutorials: a Reverse Engineering Approach</a></li>
+										<li><a href="https://www.sans.org/reading-room/whitepapers/forensics/forensic-analysis-ios-devices-34092">Forensic Analysis on iOS Devices</a></li>
+										<li><a href="http://security.cs.rpi.edu/~gaasem/winexp/IndependentStudy.pdf">Modern Windows Vulnerability Analysis &amp; Exploit Development</a></li>
+										<li><a href="https://www.sans.org/reading-room/whitepapers/testing/ipwn-apps-pentesting-ios-applications-34577">iPwn Apps: Pentesting iOS Applications</a></li>
+										<li><a href="http://securityxploded.com/malware-analysis-training-reference.php">Malware Analysis Training Series</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab" id="tab-7">
+							<ul>
+								<li>初學
+									<ul>
+										<li><a href="http://www.books.com.tw/products/CN11193135">Metasploit滲透測試與開發實踐指南</a></li>
+										<li><a href="http://www.twwiki.com/wiki/%E4%B8%AD%E9%96%93%E4%BA%BA%E6%94%BB%E6%93%8A">中間人攻擊</li>
+										<li><a href="http://jackforsec.blogspot.tw/2009/11/blog-post_10.html">無線網路入侵手法與防禦對策分析</li>
+										<li><a href="http://anti-hacker.blogspot.tw/2007/07/arp.html">區域網路ARP攻擊與防禦的解決方案</a></li>
+									</ul>
+								</li>
+								<li>入門
+									<ul>
+										<li><a href="http://www.books.com.tw/products/CN10438690">黑客攻防技術寶典︰系統實戰篇</a></li>
+										<li><a href="https://en.wikipedia.org/wiki/Wireless_security">Wireless security</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="tab" id="tab-8">
+							<ul>
+								<li>初學
+									<ul>
+										<li><a href="http://www.books.com.tw/products/CN11102375">安全軟件開發之道：構築軟件安全的本質方法</a></li>
+										<li><a href="http://www.books.com.tw/products/0010659951">萬無一失的程式碼：終結C&amp;C++軟體漏洞</a></li>
+									</ul>
+								</li>
+								<li>入門
+									<ul>
+										<li><a href="http://www.books.com.tw/products/CN11057667">Rootkit:系統灰色地帶的潛伏者</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+				</section>
+			</div>
+			<div class="grab" id="grab-6">
+				<i class="fa fa-briefcase fa-5x"></i>
+				<h3>工作</h3>
+				<p>很抱歉，但我想我們提供的支援或許無法滿足您的需求。但我們推薦您看看這份簡報：<a href="https://drive.google.com/file/d/0B9qqqzOjzwW9SjdTVWRkaWQ4SVk/view">窺探職場上所需之資安專業技術與能力</a></p>
+			</div>
+			<div class="grab" id="grab-7">
+				<i class="fa fa-briefcase fa-5x"></i>
+				<h3>或許您可以先去學程式設計，順便學點 Linux</h3>
+				<ul style="text-align: left;">
+					<li><a href="http://www.books.com.tw/products/0010564973">C++ Primer Plus中文版(第六版)</a></li>
+					<li><a href="http://www.books.com.tw/products/0010526346">深入淺出 Python</a></li>
+					<li><a href="http://linux.vbird.org/">鳥哥的 Linux 私房菜</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- CTA -->
+	<section id="cta">
+
+		<h2>你有什麼想法嗎？</h2>
+		<p>不妨把此網站的原始碼 Fork 回去改吧！</p>
+		<a href="https://github.com/s3131212/gotyour.pw" class="button icon fa-github " target="_blank">GitHub Repo</a>
+
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+			<li><a href="https://github.com/s3131212/gotyour.pw" class="icon fa-github "><span class="label">Github</span></a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; Got Your PW. Some rights reserved. The contents are licensed under the <a href="https://creativecommons.org/licenses/by/4.0/deed.zh_TW" rel="nofollow">CC BY 4.0</a> .</li>
+			<li>Website Template: <a href="http://html5up.net" target="_blank" rel="nofollow">HTML5 UP</a>. The template is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">CC BY 3.0</a> .</li>
+		</ul>
+	</footer>
+
+</body>
+
+</html>

@@ -4,461 +4,773 @@
 			{
 				"name": "Cybrary",
 				"url": "http://www.cybrary.it/",
-				"description": "免費的英文教學影片，涉及各種資安領域而且很深入"
+				"description": "免費的英文教學影片，涉及各種資安領域而且很深入",
+				"category": ["complex"],
+				"difficulty": 3
 			},
 			{
 				"name": "OpenCourseWare",
 				"url": "http://opensecuritytraining.info/Training.html",
-				"description": "免費的英文教學影片，非常詳細"
+				"description": "免費的英文教學影片，非常詳細",
+				"category": ["complex"],
+				"difficulty": 6
 			},
 			{
 				"name": "OffensiveComputerSecurity",
 				"url": "http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html",
-				"description": "又是一個詳細的英文教學影片"
+				"description": "又是一個詳細的英文教學影片",
+				"category": ["complex"],
+				"difficulty": 5
 			},
 			{
 				"name": "Irongeek.com",
 				"url": "http://www.irongeek.com/",
-				"description": "一大堆英文教學影片，多的不像話"
+				"description": "一大堆英文教學影片，多的不像話",
+				"category": ["complex"],
+				"difficulty": 7
 			},
 			{
 				"name": "SANS Cyber Aces Online Tutorials",
 				"url": "https://tutorials.cyberaces.org/tutorials",
-				"description": "簡單易懂的英文教學影片"
+				"description": "簡單易懂的英文教學影片",
+				"category": ["complex"],
+				"difficulty": 5
 			},
 			{
 				"name": "惡意軟體逆向工程英文教學",
 				"url": "http://fumalwareanalysis.blogspot.tw/p/malware-analysis-tutorials-reverse.html",
-				"description": "以逆向工程分析惡意軟體的英文文圖教學"
+				"description": "以逆向工程分析惡意軟體的英文文圖教學",
+				"category": ["reversing"],
+				"difficulty": 7
 			},
 			{
 				"name": "Security Alley",
 				"url": "http://securityalley.blogspot.tw/",
-				"description": "資源相當豐富而且大量的教學文"
+				"description": "資源相當豐富而且大量的教學文",
+				"category": ["complex"],
+				"difficulty": 7
+			},
+			{
+				"name": "看雪學院軟體安全資料庫",
+				"url": "http://www.pediy.com/kssd/",
+				"description": "涵蓋各領域的簡體中文資安入門文獻",
+				"category": ["complex"],
+				"difficulty": 7
 			}
 		],
 		"書籍推薦": [
 			{
 				"name": "黑帽 Python：給駭客與滲透測試者的 Python 開發指南",
-				"url": "http://www.books.com.tw/products/0010692666?",
-				"description": ""
+				"url": "http://www.books.com.tw/products/0010692666",
+				"description": "",
+				"category": ["complex", "web"],
+				"difficulty": 3
 			},
 			{
 				"name": "The Browser Hacker’s Handbook駭客攻防聖經",
 				"url": "http://www.books.com.tw/products/0010697765",
-				"description": ""
+				"description": "",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "Windows軟體安全實務：緩衝區溢位攻擊",
 				"url": "http://www.books.com.tw/products/0010689881",
-				"description": ""
+				"description": "",
+				"category": ["reversing"],
+				"difficulty": 7
 			},
 			{
 				"name": "Android Hacker’s Handbook駭客攻防聖經",
 				"url": "http://www.books.com.tw/products/0010687507",
-				"description": ""
+				"description": "",
+				"category": ["mobile"],
+				"difficulty": 5
 			},
 			{
 				"name": "網路竟然這麼危險！：阿里巴巴首席安全專家教你全方位保護網站(第2版)",
 				"url": "http://www.books.com.tw/products/0010666977",
-				"description": ""
+				"description": "",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "XSS網站安全技術與實務：防護解密剖析大進擊",
 				"url": "http://www.books.com.tw/products/0010640829",
-				"description": ""
+				"description": "",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "Web 2.0駭客技術揭密",
 				"url": "http://www.kingstone.com.tw/3hrs/book_page.asp?kmcode=2013120263086",
-				"description": ""
+				"description": "",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "黑客攻防技術寶典：Web實戰篇",
 				"url": "http://www.books.com.tw/products/CN10460536",
-				"description": ""
+				"description": "",
+				"category": ["web", "network"],
+				"difficulty": 5
 			},
 			{
 				"name": "黑客攻防技術寶典：iOS實戰篇",
 				"url": "http://www.books.com.tw/products/CN11044914",
-				"description": ""
+				"description": "",
+				"category": ["mobile"],
+				"difficulty": 5
 			},
 			{
 				"name": "黑客攻防技術寶典︰系統實戰篇",
 				"url": "http://www.books.com.tw/products/CN10438690",
-				"description": ""
+				"description": "",
+				"category": ["reversing", "network"],
+				"difficulty": 5
 			},
 			{
 				"name": "SQL注入攻擊與防御(第2版)",
 				"url": "http://www.books.com.tw/products/CN11060479",
-				"description": ""
+				"description": "",
+				"category": ["web"],
+				"difficulty": 5
 			},
 			{
 				"name": "Metasploit滲透測試與開發實踐指南",
 				"url": "http://www.books.com.tw/products/CN11193135",
-				"description": ""
+				"description": "",
+				"category": ["complex", "network", "web"],
+				"difficulty": 5
 			},
 			{
 				"name": "安全軟件開發之道：構築軟件安全的本質方法",
 				"url": "http://www.books.com.tw/products/CN11102375",
-				"description": ""
+				"description": "",
+				"category": ["programmingsecurity"],
+				"difficulty": 3
 			},
 			{
 				"name": "Rootkit:系統灰色地帶的潛伏者",
 				"url": "http://www.books.com.tw/products/CN11057667",
-				"description": ""
+				"description": "",
+				"category": ["programmingsecurity"],
+				"difficulty": 5
 			},
 			{
 				"name": "加密與解密",
 				"url": "http://www.books.com.tw/products/CN10150455",
-				"description": ""
+				"description": "",
+				"category": ["reversing", "cryptography"],
+				"difficulty": 7
 			},
 			{
 				"name": "黑客大曝光：移動應用安全揭秘及防護措施",
 				"url": "http://www.books.com.tw/products/CN11194839",
-				"description": ""
+				"description": "",
+				"category": ["mobile"],
+				"difficulty": 5
 			},
 			{
 				"name": "網站安全攻防秘笈：防御黑客和保護用戶的100條超級策略",
 				"url": "http://www.books.com.tw/products/CN11182115",
-				"description": ""
-			},
-			{
-				"name": "黑客大曝光：移動應用安全揭秘及防護措施",
-				"url": "http://www.books.com.tw/products/CN11194839",
-				"description": ""
+				"description": "",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "Web應用漏洞偵測與防御：揭秘鮮為人知的攻擊手段和防御技術",
 				"url": "http://www.books.com.tw/products/CN11158111",
-				"description": ""
+				"description": "",
+				"category": ["web"],
+				"difficulty": 3
 			}
 		],
 		"網站": [
 			{
 				"name": "exp.tw",
 				"url": "http://exp.tw/",
-				"description": "由 Orange 大神建立的資安網站，自動蒐集各大大神的動態、文章及一些知識分享"
+				"description": "由 Orange 大神建立的資安網站，自動蒐集各大大神的動態、文章及一些知識分享",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "Packet Storm",
 				"url": "http://packetstormsecurity.com/",
-				"description": "資安新聞網站"
+				"description": "資安新聞網站",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "CVE Details",
 				"url": "http://www.cvedetails.com/",
-				"description": "CVE 漏洞詳細資料及整理"
+				"description": "CVE 漏洞詳細資料及整理",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "National Vulnerability Database",
 				"url": "https://nvd.nist.gov/",
-				"description": "美國的資安漏洞網站"
+				"description": "美國的資安漏洞網站",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "安全惡意程式偵測技術研發建置計畫",
 				"url": "http://www.anti-botnet.edu.tw/index.html",
-				"description": "TANet 的保護傘，學術網路的資安資訊分析平台"
+				"description": "TANet 的保護傘，學術網路的資安資訊分析平台",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "SecurityFocus",
 				"url": "http://www.securityfocus.com/",
-				"description": "資安新聞網站"
+				"description": "資安新聞網站",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "Exploit Database",
 				"url": "http://www.exploit-db.com/",
-				"description": "各種最新漏洞的追蹤及 PoC"
+				"description": "各種最新漏洞的追蹤及 PoC",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "1337day",
 				"url": "http://www.1337day.com/",
-				"description": "PoC 交易黑市及漏洞使用範例"
+				"description": "PoC 交易黑市及漏洞使用範例",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "資安人",
 				"url": "http://www.informationsecurity.com.tw/main/index.aspx",
-				"description": "台灣的資安新聞及知識庫"
+				"description": "台灣的資安新聞及知識庫",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "iThome",
 				"url": "http://www.ithome.com.tw/",
-				"description": "台灣 IT 新聞網站，有豐富的資安及其他領域的新聞與整理"
+				"description": "台灣 IT 新聞網站，有豐富的資安及其他領域的新聞與整理",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "FreeBuf",
 				"url": "http://www.freebuf.com/",
-				"description": "關注黑客與資安新聞的中國網站"
+				"description": "關注黑客與資安新聞的中國網站",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "Hacker News",
 				"url": "http://thehackernews.com/",
-				"description": "關於資安的新聞網站"
+				"description": "關於資安的新聞網站",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "VulReport",
 				"url": "https://vulreport.net/",
-				"description": "由 HITCON 發起並支持的漏洞通報平台"
+				"description": "由 HITCON 發起並支持的漏洞通報平台",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "WooYun.org 烏雲網",
 				"url": "http://www.wooyun.org/",
-				"description": "中國的漏洞通報平台"
+				"description": "中國的漏洞通報平台",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "漏洞盒子",
 				"url": "https://www.vulbox.com/",
-				"description": "一個全民挖漏洞領獎金（？）的漏洞通報平台"
+				"description": "一個全民挖漏洞領獎金（？）的漏洞通報平台",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "看雪安全論壇",
+				"url": "http://bbs.pediy.com/",
+				"description": "中國知名資安論壇",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "看雪安全論壇",
+				"url": "http://bbs.pediy.com/",
+				"description": "中國知名資安論壇",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "HITCON Knowledge Base",
+				"url": "http://kb.hitcon.org/",
+				"description": "由 HITCON 發起的資料整理平台",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "Security Mailing List Archive",
+				"url": "http://seclists.org/",
+				"description": "整理有關資安的 Mailing List",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "Security Mailing List Archive",
+				"url": "http://seclists.org/",
+				"description": "整理有關資安的 Mailing List",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "Reddit - /r/netsec/",
+				"url": "https://www.reddit.com/r/netsec/",
+				"description": "Reddit 資安板",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "WooYun 知識庫",
+				"url": "http://drops.wooyun.org/",
+				"description": "烏雲所開設的資安部落格",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "Reddit - /r/netsec/",
+				"url": "https://www.reddit.com/r/netsec/",
+				"description": "Reddit 資安板",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "Google Project Zero",
+				"url": "http://googleprojectzero.blogspot.tw/",
+				"description": "Google 做的資安部落格",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "Krebs On Security",
+				"url": "http://krebsonsecurity.com/",
+				"description": "資安新聞網站",
+				"category": [],
+				"difficulty": 0
 			}
 		],
 		"工具": [
 			{
 				"name": "SQLMap",
 				"url": "http://sqlmap.org/",
-				"description": "自動化 SQL Injection 工具"
+				"description": "自動化 SQL Injection 工具",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "commix",
 				"url": "https://github.com/stasinopoulos/commix",
-				"description": "自動化 Command Injection 測試工具"
+				"description": "自動化 Command Injection 測試工具",
+				"category": ["complex", "web"],
+				"difficulty": 3
 			},
 			{
 				"name": "Nmap",
 				"url": "http://nmap.org/",
-				"description": "自動化掃描工具"
+				"description": "自動化掃描工具",
+				"category": ["complex"],
+				"difficulty": 3
 			},
 			{
 				"name": "Zmap",
 				"url": "https://zmap.io/",
-				"description": "更快的自動化掃描工具（？"
+				"description": "更快的自動化掃描工具（？",
+				"category": ["complex"],
+				"difficulty": 3
 			},
 			{
 				"name": "Masscan",
 				"url": "https://github.com/robertdavidgraham/masscan",
-				"description": "超快的自動化掃描工具（被踹飛"
+				"description": "超快的自動化掃描工具（被踹飛",
+				"category": ["complex"],
+				"difficulty": 3
 			},
 			{
 				"name": "Burp Suite",
 				"url": "http://portswigger.net/burp/",
-				"description": "強大的測試工具，包含漏洞掃描，檢視、修改、傳送封包"
+				"description": "強大的測試工具，包含漏洞掃描，檢視、修改、傳送封包",
+				"category": ["web"],
+				"difficulty": 5
 			},
 			{
 				"name": "Metasploit",
 				"url": "http://www.metasploit.com/",
-				"description": "滲透測試用的工具包"
+				"description": "滲透測試用的工具包",
+				"category": ["complex", "network", "web"],
+				"difficulty": 5
 			},
 			{
 				"name": "Ettercap",
 				"url": "http://ettercap.github.io/ettercap/",
-				"description": "MITM 攻擊測試工具"
+				"description": "MITM 攻擊測試工具",
+				"category": ["network"],
+				"difficulty": 5
 			},
 			{
 				"name": "Kali Linux",
 				"url": "https://www.kali.org/",
-				"description": "已經打包好各種滲透測試工具的作業系統"
+				"description": "已經打包好各種滲透測試工具的作業系統",
+				"category": ["complex"],
+				"difficulty": 5
 			},
 			{
 				"name": "CMSmap",
 				"url": "https://github.com/dionach/CMSmap",
-				"description": "自動化 CMS 攻擊程式"
+				"description": "自動化 CMS 攻擊程式",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "Cheat Engine",
 				"url": "http://www.cheatengine.org/",
-				"description": "可以任意檢視、修改記憶體內容，常用於逆向工程和外掛製作"
+				"description": "可以任意檢視、修改記憶體內容，常用於逆向工程和外掛製作",
+				"category": ["reversing"],
+				"difficulty": 5
 			},
 			{
 				"name": "IDA",
 				"url": "https://www.hex-rays.com/products/ida/",
-				"description": "逆向工程及除錯工具"
+				"description": "逆向工程及除錯工具",
+				"category": ["reversing"],
+				"difficulty": 5
 			},
 			{
 				"name": "GDB",
 				"url": "https://www.gnu.org/software/gdb/",
-				"description": "也是一個除錯工具，常用於逆向工程"
+				"description": "也是一個除錯工具，常用於逆向工程",
+				"category": ["reversing"],
+				"difficulty": 5
 			},
 			{
 				"name": "jsnice",
 				"url": "http://www.jsnice.org/",
-				"description": "一個強大的分析引擎，用來協助處理經過壓縮的 JavaScript，自動進行變數重命名，還能自動分析變數型別，並且加上JSDoc"
+				"description": "一個強大的分析引擎，用來協助處理經過壓縮的 JavaScript，自動進行變數重命名，還能自動分析變數型別，並且加上JSDoc",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "JSDetox",
 				"url": "http://www.relentless-coding.org/projects/jsdetox",
-				"description": "一個強大的分析引擎，用來分析惡意混淆後的 JavaScript，自動還原靜態資料"
+				"description": "一個強大的分析引擎，用來分析惡意混淆後的 JavaScript，自動還原靜態資料",
+				"category": ["web"],
+				"difficulty": 3
+			},
+			{
+				"name": "OpenSSL",
+				"url": "https://www.openssl.org/",
+				"description": "超神的加解密軟體",
+				"category": ["cryptography"],
+				"difficulty": 7
+			},
+			{
+				"name": "rsatool",
+				"url": "https://github.com/ius/rsatool",
+				"description": "研究 RSA 的好工具",
+				"category": ["cryptography"],
+				"difficulty": 5
 			},
 			{
 				"name": "jsbeautifier",
 				"url": "http://jsbeautifier.org/",
-				"description": "JavaScript / HTML 格式化工具"
+				"description": "JavaScript / HTML 格式化工具",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "Awesome Honeypots",
 				"url": "https://github.com/paralax/awesome-honeypots",
-				"description": "一些好用而強大的 Honeypots 整理"
+				"description": "一些好用而強大的 Honeypots 整理",
+				"category": ["complex"],
+				"difficulty": 3
 			}
 		],
 		"遊戲/練功房": [
 			{
 				"name": "alert(1) to win",
 				"url": "https://escape.alf.nu/",
-				"description": "XSS 練功房，解答在<a href=\"http://exp.tw/writing/show/38\" target=\"_blank\" rel=\"nofollow\">此</a>"
+				"description": "XSS 練功房，解答在<a href=\"http://exp.tw/writing/show/38\" target=\"_blank\" rel=\"nofollow\">此</a>",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "prompt(1) to win",
 				"url": "http://prompt.ml/0",
-				"description": "類似 alert(1) to win 的遊戲"
+				"description": "類似 alert(1) to win 的遊戲",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "NCTU Online Judge",
 				"url": "http://wargame.cs.nctu.edu.tw/",
-				"description": "交大 Wargame Online Judge"
+				"description": "交大 Wargame Online Judge",
+				"category": ["complex"],
+				"difficulty": 5
 			},
 			{
 				"name": "Hack This Site (HTS)",
 				"url": "https://www.hackthissite.org/",
-				"description": "較接近實戰練習的線上 Wargame"
+				"description": "較接近實戰練習的線上 Wargame",
+				"category": ["complex"],
+				"difficulty": 5
 			},
 			{
 				"name": "OverTheWire",
 				"url": "http://overthewire.org/wargames/",
-				"description": "一個涵蓋大多數題目類型的遊戲，且題目數量眾多"
+				"description": "一個涵蓋大多數題目類型的遊戲，且題目數量眾多",
+				"category": ["complex"],
+				"difficulty": 7
 			},
 			{
 				"name": "bWAPP",
 				"url": "http://www.itsecgames.com/",
-				"description": "bWAPP 有超過一百個漏洞可供初學者模擬攻擊 （需下載）"
+				"description": "bWAPP 有超過一百個漏洞可供初學者模擬攻擊 （需下載）",
+				"category": ["web"],
+				"difficulty": 5
 			},
 			{
 				"name": "Broken Web Applications",
 				"url": "https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project",
-				"description": "OWASP 維護的攻擊學習網站 （需下載）"
+				"description": "OWASP 維護的攻擊學習網站 （需下載）",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "WebGoat",
 				"url": "https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project",
-				"description": "一個漏洞豐富的網站，最適合初學者學習攻擊 （需下載）"
+				"description": "一個漏洞豐富的網站，最適合初學者學習攻擊 （需下載）",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "pwnable.kr",
 				"url": "http://pwnable.kr/",
-				"description": "Pwn 類型的題目，也有 ARM 的東西（key 常常很嘲諷）"
+				"description": "Pwn 類型的題目，也有 ARM 的東西（key 常常很嘲諷）",
+				"category": ["reversing"],
+				"difficulty": 5
 			},
 			{
 				"name": "Hacker Experience",
 				"url": "http://hackerexperience.com/index",
-				"description": "一個模擬黑客體驗的遊戲，可以升級硬體設備、完成派發任務還有升級防禦軟體等多種玩法!"
+				"description": "一個模擬黑客體驗的遊戲，可以升級硬體設備、完成派發任務還有升級防禦軟體等多種玩法!",
+				"category": ["complex"],
+				"difficulty": 7
 			},
 			{
 				"name": "Hacker Game By BlackHost",
 				"url": "http://www.blackhost.xyz/?id=gms",
-				"description": "初學者推薦，能學到HTML、JavaScript、表單POST，在各種地方藏密碼的找密碼遊戲"
+				"description": "初學者推薦，能學到HTML、JavaScript、表單POST，在各種地方藏密碼的找密碼遊戲",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "Damn Vulnerable Web Application",
 				"url": "http://www.dvwa.co.uk/",
-				"description": "PHP/MySQL web application 的入門弱點練習包，內附有一些連結教學提示&原始碼"
+				"description": "PHP/MySQL web application 的入門弱點練習包，內附有一些連結教學提示&原始碼",
+				"category": ["web"],
+				"difficulty": 3
 			}
 		],
 		"研討會": [
 			{
 				"name": "HITCON",
 				"url": "http://hitcon.org/2015/",
-				"description": "台灣最大的駭客與資安技術研討會之一，於每年八月在台北舉辦"
+				"description": "台灣最大的駭客與資安技術研討會之一，於每年八月在台北舉辦",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "HoneyCon",
 				"url": "http://2015.honeynet.org.tw/",
-				"description": "台灣誘捕網路技術研討會，是台灣的資安年會之一"
+				"description": "台灣誘捕網路技術研討會，是台灣的資安年會之一",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "台灣資訊安全大會",
 				"url": "http://infosec.ithome.com.tw/",
-				"description": "台灣的年度資安盛會之一"
+				"description": "台灣的年度資安盛會之一",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "DEFCON",
 				"url": "https://www.defcon.org/",
-				"description": "世界上歷史最悠久，最盛大的駭客年會/CTF之一"
+				"description": "世界上歷史最悠久，最盛大的駭客年會/CTF之一",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "Blackhat",
 				"url": "https://www.blackhat.com/",
-				"description": "國際最大、最重要的資安大會之一"
+				"description": "國際最大、最重要的資安大會之一",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "HITB SECURITY CONFERENCE",
 				"url": "http://conference.hitb.org/",
-				"description": "由 HITB 舉辦，每年在吉隆坡及阿姆斯特丹舉辦"
+				"description": "由 HITB 舉辦，每年在吉隆坡及阿姆斯特丹舉辦",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "COUNTERMEASURE",
 				"url": "http://www.countermeasure.ca/",
-				"description": "每年於渥太華舉辦"
+				"description": "每年於渥太華舉辦",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "POC",
 				"url": "http://www.powerofcommunity.net/index.htm",
-				"description": "於韓國首爾舉辦的資安大會"
+				"description": "於韓國首爾舉辦的資安大會",
+				"category": [],
+				"difficulty": 5
 			},
 			{
 				"name": "44CON",
 				"url": "http://44con.com/",
-				"description": "在英國倫敦，舉辦 44CON Cyber Security 和 44CON London 兩大資安盛會"
+				"description": "在英國倫敦，舉辦 44CON Cyber Security 和 44CON London 兩大資安盛會",
+				"category": [],
+				"difficulty": 0
 			},
 			{
 				"name": "SyScan",
 				"url": "https://www.syscan.org/",
-				"description": "於新加坡的資安會議"
+				"description": "於新加坡的資安會議",
+				"category": [],
+				"difficulty": 0
 			}
 		],
-		"後門": [
+		"CTF": [
 			{
-				"name": "各種強大後門集合",
-				"url": "https://github.com/tennc/webshell",
-				"description": "蒐集了各大語言的後門程式"
+				"name": "CTF Field Guide",
+				"url": "https://trailofbits.github.io/ctf/",
+				"description": "CTF 入門教學",
+				"difficulty": 0
 			},
 			{
-				"name": "那些强悍的PHP一句话后门",
-				"url": "http://www.oooceo.com/security/php-word/",
-				"description": "各種神人級的 PHP 後門"
+				"name": "HITCON CTF 導覽",
+				"url": "http://www.slideshare.net/HacksInTaiwan/hitcon-ctf",
+				"description": "HITCON CTF Conference 的導覽投影片",
+				"difficulty": 0
 			},
 			{
-				"name": "asp一句话木马的总结分析",
-				"url": "http://www.path8.net/tn/archives/3998",
-				"description": "PHP 完了換 ASP 一句話後門"
+				"name": "CTFtime",
+				"url": "https://ctftime.org/",
+				"description": "CTF 戰隊、比賽、 Write-up 整理",
+				"difficulty": 0
+			},
+			{
+				"name": "CTFs",
+				"url": "https://github.com/ctfs",
+				"description": "CTF Write-up 整理",
+				"difficulty": 0
+			},
+			{
+				"name": "XCTF-Time",
+				"url": "https://time.xctf.org.cn/",
+				"description": "中國版的 CTFtime",
+				"difficulty": 0
+			},
+			{
+				"name": "217 部落格",
+				"url": "http://217.logdown.com/",
+				"description": "CTF 戰隊 217 的部落格，有許多 Write-up",
+				"difficulty": 0
+			},
+			{
+				"name": "XCTF-Time",
+				"url": "https://time.xctf.org.cn/",
+				"description": "中國版的 CTFtime",
+				"difficulty": 0
+			},
+			{
+				"name": "Plaid Parliament of Pwning",
+				"url": "http://pwning.net/",
+				"description": "CTF 戰隊 PPP 的部落格",
+				"difficulty": 0
 			}
 		],
 		"Cheat Sheet": [
 			{
 				"name": "SQL Injection Cheet Sheet I",
 				"url": "http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/",
-				"description": "SQL 注入 Cheat Sheet"
+				"description": "SQL 注入 Cheat Sheet",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "SQL Injection Cheet Sheet II",
 				"url": "http://www.sqlinjectionwiki.com/Categories/2/mysql-sql-injection-cheat-sheet/",
-				"description": "另一個不錯的 Cheat Sheet ，右邊可以選擇資料庫系統"
+				"description": "另一個不錯的 Cheat Sheet ，右邊可以選擇資料庫系統",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "SQL Injection Cheet Sheet III",
 				"url": "http://websec.ca/kb/sql_injection",
-				"description": "也是一個蒐集各大資料庫系統，相當詳盡的 Cheat Sheet"
+				"description": "也是一個蒐集各大資料庫系統，相當詳盡的 Cheat Sheet",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "XSS Cheet Sheet I",
 				"url": "https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet",
-				"description": "OWASP 的 XSS Cheat Sheet ，超詳細"
+				"description": "OWASP 的 XSS Cheat Sheet ，超詳細",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "XSS Cheet Sheet II",
 				"url": "http://www.xenuser.org/xss-cheat-sheet/",
-				"description": "簡略的 XSS Cheat Sheet"
+				"description": "簡略的 XSS Cheat Sheet",
+				"category": ["web"],
+				"difficulty": 3
 			},
 			{
 				"name": "XSS Cheet Sheet for HTML5",
 				"url": "https://html5sec.org/",
-				"description": "專門給 HTML5 的 XSS Cheat Sheet"
+				"description": "專門給 HTML5 的 XSS Cheat Sheet",
+				"category": ["web"],
+				"difficulty": 3
+			}
+		],
+		"後門": [
+			{
+				"name": "各種強大後門集合",
+				"url": "https://github.com/tennc/webshell",
+				"description": "蒐集了各大語言的後門程式",
+				"category": ["web"],
+				"difficulty": 5
+			},
+			{
+				"name": "那些强悍的PHP一句话后门",
+				"url": "http://www.oooceo.com/security/php-word/",
+				"description": "各種神人級的 PHP 後門",
+				"category": ["web"],
+				"difficulty": 5
+			},
+			{
+				"name": "asp一句话木马的总结分析",
+				"url": "http://www.path8.net/tn/archives/3998",
+				"description": "PHP 完了換 ASP 一句話後門",
+				"category": ["web"],
+				"difficulty": 5
 			}
 		]
 	}

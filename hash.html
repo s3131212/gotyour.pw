@@ -1,34 +1,29 @@
 <!DOCTYPE HTML>
-<!--
-	Alpha by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Hash Generator - Got Your PW</title>
+		<title>Hash 生成 - Got Your PW</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="Got Your PW 是一個簡易的資安資源網站，包含常用的工具，適合初學者的入門教材，和許多值得追蹤的資安相關網站。" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script async src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrollgress.min.js"></script>
 		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<script src="js/hash.js"></script>
-		<script src='js/crypto-js/md5.js'></script>
-		<script src='js/crypto-js/sha1.js'></script>
-		<script src='js/crypto-js/sha256.js'></script>
-		<script src='js/crypto-js/sha512.js'></script>
-		<script src='js/crypto-js/sha3.js'></script>
-		<script src='js/crypto-js/ripemd160.js'></script>
-		<script src='js/crypto-js/pbkdf2.js'></script>
-		<script src='js/crypto-js/hmac-md5.js'></script>
-		<script src='js/crypto-js/hmac-sha1.js'></script>
-		<script src='js/crypto-js/hmac-sha256.js'></script>
-		<script src='js/crypto-js/hmac-sha512.js'></script>
-		<script src="js/ga.js"></script>
+		<script async src="js/jquery.dropotron.min.js"></script>
+		<script async src="js/jquery.scrollgress.min.js"></script>
+		<script async src="js/skel-layers.min.js"></script>
+		<script async src="js/init.js"></script>
+		<script async src="js/hash.js"></script>
+		<script async src='js/crypto-js/md5.js'></script>
+		<script async src='js/crypto-js/sha1.js'></script>
+		<script async src='js/crypto-js/sha256.js'></script>
+		<script async src='js/crypto-js/sha512.js'></script>
+		<script async src='js/crypto-js/sha3.js'></script>
+		<script async src='js/crypto-js/ripemd160.js'></script>
+		<script async src='js/crypto-js/pbkdf2.js'></script>
+		<script async src='js/crypto-js/hmac-md5.js'></script>
+		<script async src='js/crypto-js/hmac-sha1.js'></script>
+		<script async src='js/crypto-js/hmac-sha256.js'></script>
+		<script async src='js/crypto-js/hmac-sha512.js'></script>
+		<script async src="js/ga.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -43,16 +38,19 @@
 				<h1><a href="index.html">Got Your PW</a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index.html">首頁</a></li>
+						<li><a href="about.html">關於我們</a></li>
+						<li><a href="grab.html">抓周</a></li>
+						<li><a href="resources.html">資源</a></li>
 						<li>
-							<a href="" class="icon fa-angle-down">Tools</a>
+							<a href="" class="icon fa-angle-down">工具</a>
 							<ul>
-								<li><a href="converter.html">Converter</a></li>
-								<li><a href="hash.html">Hash Generator</a></li>
-								<li><a href="encrypt.html">Encryptor / Decryptor</a></li>
+								<li><a href="converter.html">編碼轉換</a></li>
+								<li><a href="hash.html">Hash 生成</a></li>
+								<li><a href="encrypt.html">加密 / 解密</a></li>
 							</ul>
 						</li>
-						<li><a href="https://github.com/s3131212/gotyour.pw/issues" class="button" target="_blank">GitHub Repo</a></li>
+						<li><a href="https://github.com/s3131212/gotyour.pw" class="button" target="_blank">GitHub Repo</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -60,15 +58,15 @@
 		<!-- Main -->
 			<section id="main" class="container 75%">
 				<header>
-					<h2>Hash Generator</h2>
+					<h2>Hash 生成</h2>
 					<p>此工具用於在線上生成各種 Hash</p>
 				</header>
 				<div class="box">
-					<h3>Hash without salt</h3>
+					<h3>Hash （無 Salt）</h3>
 					<form method="post" action="#">
 						<div class="row uniform 50%">
 							<div class="12u">
-								<h4>Plain Text</h4>
+								<h4>明碼</h4>
 								<input type="text" name="string" id="string" value="" placeholder="Plain Text" />
 							</div>
 						</div>
@@ -112,11 +110,11 @@
 				</div>
 
 				<div class="box">
-					<h3>Hash with salt</h3>
+					<h3>Hash （含 Salt）</h3>
 					<form method="post" action="#">
 						<div class="row uniform 50%">
 							<div class="4u 12u(mobilep)">
-								<h4>Plain Text</h4>
+								<h4>明碼</h4>
 								<input type="text" name="string2" id="string2" value="" placeholder="Plain Text" />
 							</div>
 							<div class="4u 12u(mobilep)">
@@ -124,7 +122,7 @@
 								<input type="text" name="salt" id="salt" value="" placeholder="Salt" />
 							</div>
 							<div class="4u 12u(mobilep)">
-								<h4>Location</h4>
+								<h4>位置</h4>
 								<div class="select-wrapper">
 									<select name="location" id="location">
 										<option value="before">字串前</option>
@@ -188,11 +186,11 @@
 					<form method="post" action="#">
 						<div class="row uniform 50%">
 							<div class="6u 12u(mobilep)">
-								<h4>Plain Text</h4>
+								<h4>明碼</h4>
 								<input type="text" name="string3" id="string3" value="" placeholder="Plain Text" />
 							</div>
 							<div class="6u 12u(mobilep)">
-								<h4>Passphrase</h4>
+								<h4>密語</h4>
 								<input type="text" name="passphrase" id="passphrase" value="" placeholder="Passphrase" />
 							</div>
 						</div>

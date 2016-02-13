@@ -1,28 +1,32 @@
 <!DOCTYPE HTML>
-<!--
-	Alpha by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Encryptor / Decryptor - Got Your PW</title>
+		<title>加密 / 解密 - Got Your PW</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="Got Your PW 是一個簡易的資安資源網站，包含常用的工具，適合初學者的入門教材，和許多值得追蹤的資安相關網站。" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script async src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrollgress.min.js"></script>
 		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<script src="js/converter.js"></script>
-		<script src="js/encrypt.js"></script>
-		<script src='js/crypto-js/aes.js'></script>
-		<script src='js/crypto-js/tripledes.js'></script>
-		<script src='js/crypto-js/rabbit.js'></script>
-		<script src='js/crypto-js/rc4.js'></script>
-		<script src="js/ga.js"></script>
+		<script async src="js/jquery.dropotron.min.js"></script>
+		<script async src="js/jquery.scrollgress.min.js"></script>
+		<script async src="js/skel-layers.min.js"></script>
+		<script async src="js/init.js"></script>
+		<script async src="js/converter.js"></script>
+		<script async src="js/encrypt.js"></script>
+		<script async src='js/crypto-js/aes.js'></script>
+		<script async src='js/crypto-js/tripledes.js'></script>
+		<script async src='js/crypto-js/rabbit.js'></script>
+		<script async src='js/crypto-js/rc4.js'></script>
+		<script async src='js/crypto-js/mode-cfb-min.js'></script>
+		<script async src='js/crypto-js/mode-ctr-min.js'></script>
+		<script async src='js/crypto-js/mode-ecb-min.js'></script>
+		<script async src='js/crypto-js/mode-ofb-min.js'></script>
+		<script async src='js/crypto-js/pad-ansix923-min.js'></script>
+		<script async src='js/crypto-js/pad-iso10126-min.js'></script>
+		<script async src='js/crypto-js/pad-iso97971-min.js'></script>
+		<script async src='js/crypto-js/pad-zeropadding-min.js'></script>
+		<script async src='js/crypto-js/pad-nopadding-min.js'></script>
+		<script async src="js/ga.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -37,16 +41,19 @@
 				<h1><a href="index.html">Got Your PW</a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index.html">首頁</a></li>
+						<li><a href="about.html">關於我們</a></li>
+						<li><a href="grab.html">抓周</a></li>
+						<li><a href="resources.html">資源</a></li>
 						<li>
-							<a href="" class="icon fa-angle-down">Tools</a>
+							<a href="" class="icon fa-angle-down">工具</a>
 							<ul>
-								<li><a href="converter.html">Converter</a></li>
-								<li><a href="hash.html">Hash Generator</a></li>
-								<li><a href="encrypt.html">Encryptor / Decryptor</a></li>
+								<li><a href="converter.html">編碼轉換</a></li>
+								<li><a href="hash.html">Hash 生成</a></li>
+								<li><a href="encrypt.html">加密 / 解密</a></li>
 							</ul>
 						</li>
-						<li><a href="https://github.com/s3131212/gotyour.pw/issues" class="button" target="_blank">GitHub Repo</a></li>
+						<li><a href="https://github.com/s3131212/gotyour.pw" class="button" target="_blank">GitHub Repo</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -54,7 +61,7 @@
 		<!-- Main -->
 			<section id="main" class="container 75%">
 				<header>
-					<h2>Encryptor / Decryptor</h2>
+					<h2>加密 / 解密</h2>
 					<p>此工具可在線上對稱金鑰加密演算法的加解密</p>
 				</header>
 				<div class="box">
@@ -62,12 +69,35 @@
 					<form method="post" action="#">
 						<div class="row uniform 50%">
 							<div class="6u 12u(mobilep)">
-								<h4>Text</h4>
+								<h4>明文</h4>
 								<input type="text" name="content" id="content" value="" placeholder="Content" />
 							</div>
 							<div class="6u 12u(mobilep)">
-								<h4>Passphrase</h4>
+								<h4>密語</h4>
 								<input type="text" name="pass" id="pass" value="" placeholder="Passphrase" />
+							</div>
+						</div>
+						<div class="row uniform 50%">
+							<div class="6u 12u(mobilep)">
+								<h4>加密模式</h4>
+								<select id="en_method">
+									<option value="CBC" selected>CBC</option>
+									<option value="CFB">CFB</option>
+									<option value="CTR">CTR</option>
+									<option value="OFB">OFB</option>
+									<option value="ECB">ECB</option>
+								</select>
+							</div>
+							<div class="6u 12u(mobilep)">
+								<h4>Padding</h4>
+								<select id="en_padding">
+									<option value="Pkcs7" selected>PKCS#7</option>
+									<option value="Iso97971">Iso97971</option>
+									<option value="AnsiX923">AnsiX923</option>
+									<option value="Iso10126">Iso10126</option>
+									<option value="ZeroPadding">ZeroPadding</option>
+									<option value="NoPadding">NoPadding</option>
+								</select>
 							</div>
 						</div>
 						<div class="row uniform 50%">
@@ -114,17 +144,17 @@
 					<form method="post" action="#">
 						<div class="row uniform 50%">
 							<div class="12u">
-								<h4>Encrypted Data</h4>
-								<input type="text" name="encrypteddata" id="encrypteddata" value="" placeholder="Content" />
+								<h4>密文</h4>
+								<input type="text" name="ciphertext" id="ciphertext" value="" placeholder="Ciphertext" />
 							</div>
 						</div>
 						<div class="row uniform 50%">
 							<div class="6u 12u(mobilep)">
-								<h4>Passphrase</h4>
+								<h4>密語</h4>
 								<input type="text" name="passs" id="passs" value="" placeholder="Passphrase" />
 							</div>
 							<div class="6u 12u(mobilep)">
-								<h4>Algorithm</h4>
+								<h4>加密演算法</h4>
 								<div class="select-wrapper">
 									<select name="algorithm" id="algorithm">
 										<option value="aes">AES-256</option>
@@ -138,9 +168,32 @@
 							</div>
 						</div>
 						<div class="row uniform 50%">
+							<div class="6u 12u(mobilep)">
+								<h4>加密模式</h4>
+								<select id="de_method">
+									<option value="CBC" selected>CBC</option>
+									<option value="CFB">CFB</option>
+									<option value="CTR">CTR</option>
+									<option value="OFB">OFB</option>
+									<option value="ECB">ECB</option>
+								</select>
+							</div>
+							<div class="6u 12u(mobilep)">
+								<h4>Padding</h4>
+								<select id="de_padding">
+									<option value="Pkcs7" selected>PKCS#7</option>
+									<option value="Iso97971">Iso97971</option>
+									<option value="AnsiX923">AnsiX923</option>
+									<option value="Iso10126">Iso10126</option>
+									<option value="ZeroPadding">ZeroPadding</option>
+									<option value="NoPadding">NoPadding</option>
+								</select>
+							</div>
+						</div>
+						<div class="row uniform 50%">
 							<div class="12u">
-								<h4>Ciphertext</h4>
-								<input type="text" name="ciphertext" id="ciphertext" value="" placeholder="Ciphertext" readonly />
+								<h4>明文</h4>
+								<input type="text" name="plaintext" id="plaintext" value="" placeholder="Plain Text" readonly />
 							</div>
 						</div>
 

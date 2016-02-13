@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>編碼轉換 - Got Your PW</title>
+		<title>資源 - Got Your PW</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="Got Your PW 是一個簡易的資安資源網站，包含常用的工具，適合初學者的入門教材，和許多值得追蹤的資安相關網站。" />
 		<!--[if lte IE 8]><script async src="css/ie/html5shiv.js"></script><![endif]-->
@@ -11,7 +11,7 @@
 		<script async src="js/jquery.scrollgress.min.js"></script>
 		<script async src="js/skel-layers.min.js"></script>
 		<script async src="js/init.js"></script>
-		<script async src="js/converter.js"></script>
+		<script async src="js/script.js"></script>
 		<script async src="js/ga.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -19,6 +19,23 @@
 			<link rel="stylesheet" href="css/style-wide.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<style>
+			.unselected_resources > a, .unselected_resources > span {
+				color: #ddd;
+				-webkit-transition: color 0.7s;
+    			transition: color 0.7s;
+			}
+			.selected_resources > span {
+				color: #777;
+				-webkit-transition: color 0.7s;
+    			transition: color 0.7s;
+			}
+			.selected_resources > a {
+				color: #e89980;
+				-webkit-transition: color 0.7s;
+    			transition: color 0.7s;
+			}
+		</style>
 	</head>
 	<body>
 
@@ -45,42 +62,37 @@
 			</header>
 
 		<!-- Main -->
-			<section id="main" class="container 75%">
+			<section id="main" class="container 100%">
 				<header>
-					<h2>線上編碼轉換工具</h2>
-					<p>此工具可用於繞過 (Bypass) 有漏洞的 XSS 或 SQL Injection 過濾器</p>
+					<h2>資源</h2>
+					<p>以下是我們整理過後的優質資源</p>
 				</header>
 				<div class="box">
-					<form method="post" action="#">
 						<div class="row uniform 50%">
-							<div class="12u">
-								<h4>明碼</h4>
-								<input type="text" name="plain" id="plain" value="" placeholder="Plain Text" />
+							<div class="6u 12u(mobilep)">
+								<h4>難度</h4>
+								<select id="difficulty">							<option value="0" selected>全部</option>
+									<option value="3">初學（完全沒有基礎）</option>
+									<option value="5">入門（稍微略懂一些）</option>
+									<option value="7">進修（想要學得更多）</option>
+								</select>
+							</div>
+							<div class="6u 12u(mobilep)">
+								<h4>領域</h4>
+								<select id="category">
+									<option value="0" selected>全部</option>
+									<option value="complex">綜合領域</option>
+									<option value="reversing">Binary / Reversing</option>
+									<option value="web">Web</option>
+									<option value="mobile">Mobile</option>
+									<option value="network">Network</option>
+									<option value="cryptography">Cryptography</option>
+									<option value="programmingsecurity">Programming Security</option>
+								</select>
 							</div>
 						</div>
-						<div class="row uniform 50%">
-							<div class="12u">
-								<h4>十六進制 (Hex)</h4>
-								<h5>URL Encode</h5>
-								<input type="text" name="url" id="url" value="" placeholder="URL Encode" />
-								<h5>HTML</h5>
-								<input type="text" name="html" id="html" value="" placeholder="HTML" />
-							</div>
-						</div>
-						<div class="row uniform 50%">
-							<div class="12u">
-								<h4>十進制 (Decimal)</h4>
-								<input type="text" name="decimal" id="decimal" value="" placeholder="Decimal" />
-							</div>
-						</div>
-						<div class="row uniform 50%">
-							<div class="12u">
-								<h4>Base64</h4>
-								<input type="text" name="base64" id="base64" value="" placeholder="Base64" />
-							</div>
-						</div>
-					</form>
-				</div>
+					</div>
+				<div id="datacon"></div>
 			</section>
 
 		<!-- Footer -->
@@ -89,7 +101,7 @@
 					<li><a href="https://github.com/s3131212/gotyour.pw" class="icon fa-github"><span class="label">Github</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Got Your PW. Some rights reserved. The contents are licensed under the <a href="https://creativecommons.org/licenses/by/4.0/deed.zh_TW" rel="nofollow">CC BY 4.0</a> .</li><li>Website Template: <a href="http://html5up.net" target="_blank" rel="nofollow">HTML5 UP</a> . The template is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">CC BY 3.0</a>.</li>
+					<li>&copy; Got Your PW. Some rights reserved. The contents are licensed under the <a href="https://creativecommons.org/licenses/by/4.0/deed.zh_TW" rel="nofollow">CC BY 4.0</a> .</li><li>Website Template: <a href="http://html5up.net" target="_blank" rel="nofollow">HTML5 UP</a>. The template is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" rel="nofollow">CC BY 3.0</a> .</li>
 				</ul>
 			</footer>
 

@@ -17,7 +17,7 @@ $(document).ready(function (){
         		htmldata += '<ul>';
 
         		$.each(value, function( indexx, valuee ) {
-        			htmldata += '<li><a href="' + valuee.url + '" target="_blank" rel="nofollow">' + valuee.name + '</a><br />' + valuee.description;
+        			htmldata += '<li data-category=\'' + JSON.stringify(valuee.category) + '\' data-difficulty="' + valuee.difficulty + '"><a href="' + valuee.url + '" target="_blank" rel="nofollow">' + valuee.name + '</a><br /><span>' + valuee.description + '</span>';
 				});
 
         		htmldata += '</ul>';
@@ -35,5 +35,18 @@ $(document).ready(function (){
         error: function(){
         	alert("Oh no, something goes wrong.");
         }
+    });
+    $('#difficulty, #category').on('change', function(){
+        $('.selected_resources').removeClass('selected_resources');
+        $('.unselected_resources').removeClass('unselected_resources');
+        if($('#category').val() == 0 && $('#difficulty').val() == 0) return false;
+        $('#datacon li').each(function(){
+            if($(this).data('difficulty') == $('#difficulty').val() || $(this).data('difficulty') == 0 || $('#difficulty').val() == 0){
+                if($('#category').val() == 0 ||jQuery.inArray($('#category').val(), $(this).data('category'))>-1){
+                    $(this).addClass('selected_resources');
+                }
+            }
+        });
+        $('#datacon li:not(.selected_resources)').addClass('unselected_resources');
     });
 });

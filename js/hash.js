@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#string').on('input change',function(){
+    $('#string').on('input change keydown keyup keypress',function(){
         var data = $(this).val();
         $('#md5').val(CryptoJS.MD5(data));
         $('#sha1').val(CryptoJS.SHA1(data));
@@ -9,7 +9,7 @@ $(document).ready(function(){
        	$('#ripemd160').val(CryptoJS.RIPEMD160(data));
     });
 
-    $('#string2 , #salt , #location').on('input change',function(){
+    $('#string2 , #salt , #location').on('input change keydown keyup keypress',function(){
         var data2 = $('#string2').val();
         var salt = $('#salt').val();
         if($('#location').val() == "before" && salt != ''){
@@ -31,7 +31,7 @@ $(document).ready(function(){
         $('#ripemd160s').val(CryptoJS.RIPEMD160(datawithsalt));
     });
 
-    $('#string3 , #passphrase').on('input change',function(){
+    $('#string3 , #passphrase').on('input change keydown keyup keypress',function(){
         var data = $('#string3').val();
         var pass = $('#passphrase').val();
         $('#md5h').val(CryptoJS.HmacMD5(data, pass));
