@@ -772,6 +772,57 @@
 				"category": ["web"],
 				"difficulty": 5
 			}
+		],
+		"社群": [
+			{
+				"name": "The Declaration of hacker - TDOH",
+				"url": "https://www.facebook.com/groups/TDOHacker/",
+				"description": "",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "HITCON",
+				"url": "https://www.facebook.com/groups/HITCON/",
+				"description": "",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "EC-Council 非官方中文討論區",
+				"url": "https://www.facebook.com/groups/lpttaiwan/",
+				"description": "",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "駭客&防範",
+				"url": "https://www.facebook.com/groups/161470620703052/",
+				"description": "",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "The Honeynet Project Taiwan Chapter",
+				"url": "https://www.facebook.com/groups/honeynet/",
+				"description": "",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "SHIELD",
+				"url": "https://www.facebook.com/groups/277448989127429/",
+				"description": "",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "病毒軟體回報中心(Virus software returns center)",
+				"url": "https://www.facebook.com/groups/V.S.R.Center/",
+				"description": "",
+				"category": [],
+				"difficulty": 0
+			}
 		]
 	}
 ]
