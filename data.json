@@ -528,13 +528,6 @@
 				"difficulty": 3
 			},
 			{
-				"name": "NCTU Online Judge",
-				"url": "http://wargame.cs.nctu.edu.tw/",
-				"description": "交大 Wargame Online Judge",
-				"category": ["complex"],
-				"difficulty": 5
-			},
-			{
 				"name": "Hack This Site (HTS)",
 				"url": "https://www.hackthissite.org/",
 				"description": "較接近實戰練習的線上 Wargame",
