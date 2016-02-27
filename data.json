@@ -510,13 +510,6 @@
 				"description": "Linux 的 ELF 注入工具 (就像 Windows 的 DLL injection)",
 				"category": ["reversing"],
 				"difficulty": 2
-			},
-			{
-				"name": "JADX -- dex to java decompiler",
-				"url": "https://github.com/skylot/jadx",
-				"description": "類似於 JD-GUI ，但是可以直接把 apk 丟進去反編譯",
-				"category": ["reversing"],
-				"difficulty": 2
 			}
 		],
 		"遊戲/練功房": [
