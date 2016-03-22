@@ -321,13 +321,6 @@
 				"difficulty": 0
 			},
 			{
-				"name": "Security Mailing List Archive",
-				"url": "http://seclists.org/",
-				"description": "整理有關資安的 Mailing List",
-				"category": [],
-				"difficulty": 0
-			},
-			{
 				"name": "Reddit - /r/netsec/",
 				"url": "https://www.reddit.com/r/netsec/",
 				"description": "Reddit 資安板",
