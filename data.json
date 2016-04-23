@@ -56,6 +56,13 @@
 				"description": "涵蓋各領域的簡體中文資安入門文獻",
 				"category": ["complex"],
 				"difficulty": 7
+			},
+			{
+				"name": "PwnWiki.io",
+				"url": "http://pwnwiki.io/#!index.md",
+				"description": "蠻詳細的 PWN 教學與資源",
+				"category": ["reversing"],
+				"difficulty": 5
 			}
 		],
 		"書籍推薦": [
