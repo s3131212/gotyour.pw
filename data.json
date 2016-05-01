@@ -502,14 +502,21 @@
 				"url": "http://www.benf.org/other/cfr/",
 				"description": "支援 Java8 lambdas / Java7 switch on strings 等新語法的 Java decompiler",
 				"category": ["reversing"],
-				"difficulty": 2
+				"difficulty": 3
 			},
 			{
 				"name": "linux-inject",
 				"url": "https://github.com/gaffe23/linux-inject",
 				"description": "Linux 的 ELF 注入工具 (就像 Windows 的 DLL injection)",
 				"category": ["reversing"],
-				"difficulty": 2
+				"difficulty": 3
+			},
+			{
+				"name": "BetterCap",
+				"url": "https://www.bettercap.org/",
+				"description": "MITM 套件包",
+				"category": ["network"],
+				"difficulty": 3
 			}
 		],
 		"遊戲/練功房": [
