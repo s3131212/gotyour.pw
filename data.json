@@ -307,6 +307,13 @@
 				"difficulty": 0
 			},
 			{
+				"name": "看雪安全論壇",
+				"url": "http://bbs.pediy.com/",
+				"description": "中國知名資安論壇",
+				"category": [],
+				"difficulty": 0
+			},
+			{
 				"name": "HITCON Knowledge Base",
 				"url": "http://kb.hitcon.org/",
 				"description": "由 HITCON 發起的資料整理平台",
