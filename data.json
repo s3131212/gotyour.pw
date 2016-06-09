@@ -510,6 +510,13 @@
 				"description": "MITM 套件包",
 				"category": ["network"],
 				"difficulty": 3
+			},
+			{
+				"name": "Wfuzz",
+				"url": "http://www.edge-security.com/wfuzz.php",
+				"description": "Web 窮舉工具",
+				"category": ["web"],
+				"difficulty": 3
 			}
 		],
 		"遊戲/練功房": [
