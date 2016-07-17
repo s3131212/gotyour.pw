@@ -718,6 +718,12 @@
 				"url": "http://pwning.net/",
 				"description": "CTF 戰隊 PPP 的部落格",
 				"difficulty": 0
+			},
+			{
+				"name": "CTF中那些脑洞大开的编码和加密",
+				"url": "https://www.hackfun.org/CTF/coding-and-encryption-of-those-brain-holes-in-CTF.html",
+				"description": "整理 CTF 中常見的編碼、加密方式",
+				"difficulty": 0
 			}
 		],
 		"Cheat Sheet": [
