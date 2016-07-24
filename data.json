@@ -68,7 +68,7 @@
 				"name": "技术入门游戏安全实验室",
 				"url": "http://gslab.qq.com/jc/",
 				"description": "對手機遊戲的資安入門介紹",
-				"category": ["reversing, mobile"],
+				"category": ["reversing", "mobile"],
 				"difficulty": 5
 			}
 		],
