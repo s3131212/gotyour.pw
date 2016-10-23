@@ -624,6 +624,12 @@
 				"description": "PHP/MySQL web application 的入門弱點練習包，內附有一些連結教學提示&原始碼",
 				"category": ["web"],
 				"difficulty": 3
+			},
+			{
+				"name": "南京邮电大学网络攻防训练平台",
+				"url": "http://ctf.nuptsast.com/",
+				"description": "很簡單的 CTF 練功房",
+				"difficulty": 0
 			}
 		],
 		"研討會": [
@@ -751,6 +757,12 @@
 				"name": "CTF中那些脑洞大开的编码和加密",
 				"url": "https://www.hackfun.org/CTF/coding-and-encryption-of-those-brain-holes-in-CTF.html",
 				"description": "整理 CTF 中常見的編碼、加密方式",
+				"difficulty": 0
+			},
+			{
+				"name": "南京邮电大学网络攻防训练平台",
+				"url": "http://ctf.nuptsast.com/",
+				"description": "很簡單的 CTF 練功房",
 				"difficulty": 0
 			}
 		],
