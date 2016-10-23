@@ -70,6 +70,20 @@
 				"description": "對手機遊戲的資安入門介紹",
 				"category": ["reversing", "mobile"],
 				"difficulty": 5
+			},
+			{
+				"name": "Kali Linux Tools 中文說明書",
+				"url": "https://kali.ictf.pw/",
+				"description": "Kali Linux 的全中文教學",
+				"category": ["complex"],
+				"difficulty": 5
+			},
+			{
+				"name": "Kali Linux 秘籍",
+				"url": "https://www.gitbook.com/book/wizardforcel/kali-linux-cookbook/details",
+				"description": "另一個 Kali Linux 中文教學",
+				"category": ["complex"],
+				"difficulty": 5
 			}
 		],
 		"書籍推薦": [
@@ -524,6 +538,13 @@
 				"description": "Web 窮舉工具",
 				"category": ["web"],
 				"difficulty": 3
+			},
+			{
+				"name": "Case Study of JavaScript engine vulnerabilities",
+				"url": "https://github.com/tunz/js-vuln-db",
+				"description": "一些研究 Javascript 引擎漏洞的 POC",
+				"category": ["web"],
+				"difficulty": 5
 			}
 		],
 		"遊戲/練功房": [
