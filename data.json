@@ -630,6 +630,12 @@
 				"url": "http://ctf.nuptsast.com/",
 				"description": "很簡單的 CTF 練功房",
 				"difficulty": 0
+			},
+			{
+				"name": "Please Hack Me",
+				"url": "https://hackme.inndy.tw/",
+				"description": "略難於樓上的 CTF 練攻房",
+				"difficulty": 0
 			}
 		],
 		"研討會": [
@@ -763,6 +769,12 @@
 				"name": "南京邮电大学网络攻防训练平台",
 				"url": "http://ctf.nuptsast.com/",
 				"description": "很簡單的 CTF 練功房",
+				"difficulty": 0
+			},
+			{
+				"name": "Please Hack Me",
+				"url": "https://hackme.inndy.tw/",
+				"description": "略難於樓上的 CTF 練攻房",
 				"difficulty": 0
 			}
 		],
