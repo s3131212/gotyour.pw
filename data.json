@@ -216,13 +216,6 @@
 		],
 		"網站": [
 			{
-				"name": "exp.tw",
-				"url": "http://exp.tw/",
-				"description": "由 Orange 大神建立的資安網站，自動蒐集各大大神的動態、文章及一些知識分享",
-				"category": [],
-				"difficulty": 0
-			},
-			{
 				"name": "Packet Storm",
 				"url": "http://packetstormsecurity.com/",
 				"description": "資安新聞網站",
