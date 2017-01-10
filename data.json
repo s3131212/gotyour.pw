@@ -368,6 +368,27 @@
 				"description": "資安新聞網站",
 				"category": [],
 				"difficulty": 0
+			},
+			{
+				"name": "Paper",
+				"url": "http://paper.seebug.org/",
+				"description": "資安文章部落格",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "安全博客 - 阿里聚安全",
+				"url": "http://jaq.alibaba.com/community/index.htm",
+				"description": "阿里巴巴資安團隊的網站",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "阿里聚安全的安全专栏",
+				"url": "https://zhuanlan.zhihu.com/alijaq",
+				"description": "阿里巴巴資安團隊在知乎上的專欄",
+				"category": [],
+				"difficulty": 0
 			}
 		],
 		"工具": [
@@ -538,6 +559,13 @@
 				"description": "一些研究 Javascript 引擎漏洞的 POC",
 				"category": ["web"],
 				"difficulty": 5
+			},
+			{
+				"name": "McAfee Free Tools",
+				"url": "http://www.mcafee.com/us/downloads/free-tools/index.aspx",
+				"description": "McAfee 提供的一大堆免費資安工具",
+				"category": ["complex"],
+				"difficulty": 5
 			}
 		],
 		"遊戲/練功房": [
@@ -628,6 +656,42 @@
 				"name": "Please Hack Me",
 				"url": "https://hackme.inndy.tw/",
 				"description": "略難於樓上的 CTF 練攻房",
+				"difficulty": 0
+			},
+			{
+				"name": "Damn Vulnerable iOS App",
+				"url": "http://damnvulnerableiosapp.com/",
+				"description": "練習 iOS 滲透測試的平台",
+				"difficulty": 0
+			},
+			{
+				"name": "Game of Hack",
+				"url": "http://www.gameofhacks.com/",
+				"description": "做 Code Review 抓漏洞",
+				"difficulty": 0
+			},
+			{
+				"name": "Google Gruyere",
+				"url": "http://google-gruyere.appspot.com/",
+				"description": "另一個練習 Web 攻擊的平台",
+				"difficulty": 0
+			},
+			{
+				"name": "HackThis!!",
+				"url": "https://www.hackthis.co.uk/",
+				"description": "仍然是練習 Web 攻擊的平台，有特別區分難度水平，蠻適合初學者的",
+				"difficulty": 0
+			},
+			{
+				"name": "Root Me",
+				"url": "https://www.root-me.org/?lang=en",
+				"description": "練習網路安全知識的平台",
+				"difficulty": 0
+			},
+			{
+				"name": "OWASP Mutillidae II",
+				"url": "https://sourceforge.net/projects/mutillidae/",
+				"description": "Web 安全，攻擊類型涵蓋範圍相當廣",
 				"difficulty": 0
 			}
 		],
@@ -790,6 +854,13 @@
 				"name": "SQL Injection Cheet Sheet III",
 				"url": "http://websec.ca/kb/sql_injection",
 				"description": "也是一個蒐集各大資料庫系統，相當詳盡的 Cheat Sheet",
+				"category": ["web"],
+				"difficulty": 3
+			},
+			{
+				"name": "Rails SQL Injection",
+				"url": "http://rails-sqli.org/",
+				"description": "Rails ActiveRecord 常見 SQL Injection 手法",
 				"category": ["web"],
 				"difficulty": 3
 			},
