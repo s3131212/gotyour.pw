@@ -84,6 +84,13 @@
 				"description": "另一個 Kali Linux 中文教學",
 				"category": ["complex"],
 				"difficulty": 5
+			},
+			{
+				"name": "The Bug Hunters Methodology",
+				"url": "https://github.com/jhaddix/tbhm",
+				"description": "如何成為一個超強 Bug Hunter",
+				"category": ["complex"],
+				"difficulty": 5
 			}
 		],
 		"書籍推薦": [
@@ -566,6 +573,13 @@
 				"description": "McAfee 提供的一大堆免費資安工具",
 				"category": ["complex"],
 				"difficulty": 5
+			},
+			{
+				"name": "PowerSploit",
+				"url": "https://github.com/PowerShellMafia/PowerSploit",
+				"description": "滲透 PowerShell 的工具包",
+				"category": ["reversing", "complex"],
+				"difficulty": 5
 			}
 		],
 		"遊戲/練功房": [
@@ -884,6 +898,13 @@
 				"description": "專門給 HTML5 的 XSS Cheat Sheet",
 				"category": ["web"],
 				"difficulty": 3
+			},
+			{
+				"name": "SecLists",
+				"url": "https://github.com/danielmiessler/SecLists",
+				"description": "各式各樣攻擊 payload 的懶人包",
+				"category": ["complex", "web"],
+				"difficulty": 5
 			}
 		],
 		"後門": [
