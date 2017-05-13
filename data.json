@@ -582,7 +582,7 @@
 				"difficulty": 5
 			},
 			{
-				"name": "PowerSploit",
+				"name": "RouterSploit",
 				"url": "https://github.com/reverse-shell/routersploit",
 				"description": "綜合很多廠牌路由器的漏洞",
 				"category": ["complex"],
