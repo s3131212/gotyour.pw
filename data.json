@@ -91,6 +91,13 @@
 				"description": "如何成為一個超強 Bug Hunter",
 				"category": ["complex"],
 				"difficulty": 5
+			},
+			{
+				"name": "id0-rsa",
+				"url": "https://id0-rsa.pub/",
+				"description": "手把手入門密碼學的教學",
+				"category": ["category"],
+				"difficulty": 5
 			}
 		],
 		"書籍推薦": [
