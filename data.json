@@ -2,6 +2,13 @@
 	{
 		"教學": [
 			{
+				"name": "Bamboofox blog",
+				"url": "https://bamboofox.github.io/",
+				"description":"Bamboofox 部落格，有歷屆交大網路安全策進會的社課和影片，教學由淺入深，以及 CTF write-up、bug bounty",
+				"category": ["complex"],
+				"difficulty": 1
+			},
+			{
 				"name": "Cybrary",
 				"url": "http://www.cybrary.it/",
 				"description": "免費的英文教學影片，涉及各種資安領域而且很深入",
@@ -386,6 +393,13 @@
 		],
 		"工具": [
 			{
+				"name": "Pwntools",
+				"url": "https://github.com/Gallopsled/pwntools",
+				"description": "撰寫 exploit 的好用工具",
+				"category": ["exploit"],
+				"difficulty": 3
+			},
+			{
 				"name": "SQLMap",
 				"url": "http://sqlmap.org/",
 				"description": "自動化 SQL Injection 工具",
@@ -666,6 +680,12 @@
 				"difficulty": 0
 			},
 			{
+				"name": "Bamboofox CTF platform",
+				"url": "https://bamboofox.cs.nctu.edu.tw/",
+				"description": "Bamboofox CTF 平台，配合著社團社課的訓練平台，除此之外，還有之前在交大開課的程式安全的作業和教材可供學習",
+				"difficulty": 0
+			},
+			{
 				"name": "Damn Vulnerable iOS App",
 				"url": "http://damnvulnerableiosapp.com/",
 				"description": "練習 iOS 滲透測試的平台",
@@ -933,6 +953,13 @@
 			{
 				"name": "The Declaration of hacker - TDOH",
 				"url": "https://www.facebook.com/groups/TDOHacker/",
+				"description": "",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "BambooFox CTF 討論區",
+				"url": "https://www.facebook.com/groups/bamboofox/",
 				"description": "",
 				"category": [],
 				"difficulty": 0
