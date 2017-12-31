@@ -591,13 +591,6 @@
 		],
 		"遊戲/練功房": [
 			{
-				"name": "alert(1) to win",
-				"url": "https://escape.alf.nu/",
-				"description": "XSS 練功房，解答在<a href=\"http://exp.tw/writing/show/38\" target=\"_blank\" rel=\"nofollow\">此</a>",
-				"category": ["web"],
-				"difficulty": 3
-			},
-			{
 				"name": "prompt(1) to win",
 				"url": "http://prompt.ml/0",
 				"description": "類似 alert(1) to win 的遊戲",
