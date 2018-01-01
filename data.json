@@ -587,16 +587,17 @@
 				"description": "綜合很多廠牌路由器的漏洞",
 				"category": ["complex"],
 				"difficulty": 5
+			},
+			{
+				"name": "crypto",
+				"url": "http://temp.crypo.com/index.htm",
+				"description": "很多好用的線上加解密 / hash 平台",
+				"category": ["cryptography"],
+				"difficulty": 1
+				
 			}
 		],
 		"遊戲/練功房": [
-			{
-				"name": "alert(1) to win",
-				"url": "https://escape.alf.nu/",
-				"description": "XSS 練功房，解答在<a href=\"http://exp.tw/writing/show/38\" target=\"_blank\" rel=\"nofollow\">此</a>",
-				"category": ["web"],
-				"difficulty": 3
-			},
 			{
 				"name": "prompt(1) to win",
 				"url": "http://prompt.ml/0",
