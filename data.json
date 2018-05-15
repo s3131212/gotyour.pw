@@ -809,6 +809,12 @@
 				"difficulty": 0
 			},
 			{
+				"name": "CTF-All-In-One（CTF 从入门到放弃）",
+				"url": "https://legacy.gitbook.com/book/firmianay/ctf-all-in-one/details",
+				"description": "很完整的 CTF 教學",
+				"difficulty": 0
+			},
+			{
 				"name": "CTFtime",
 				"url": "https://ctftime.org/",
 				"description": "CTF 戰隊、比賽、 Write-up 整理",
@@ -870,6 +876,20 @@
 			}
 		],
 		"Cheat Sheet": [
+			{
+				"name": "Awesome Pentest Cheat Sheets",
+				"url": "https://github.com/coreb1t/awesome-pentest-cheat-sheets/blob/master/README.md",
+				"description": "各種滲透測試的總整理",
+				"category": ["complex"],
+				"difficulty": 5
+			},
+			{
+				"name": "awesome-windows-security-development",
+				"url": "https://github.com/DragonQuestHero/awesome-windows-security-development/blob/master/README.md",
+				"description": "Windows Security Cheat sheet",
+				"category": ["complex"],
+				"difficulty": 7
+			},
 			{
 				"name": "SQL Injection Cheet Sheet I",
 				"url": "http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/",
