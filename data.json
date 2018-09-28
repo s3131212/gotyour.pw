@@ -870,21 +870,14 @@
 				"difficulty": 7
 			},
 			{
-				"name": "SQL Injection Cheet Sheet I",
+				"name": "SQL Injection Cheat Sheet I",
 				"url": "http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/",
 				"description": "SQL 注入 Cheat Sheet",
 				"category": ["web"],
 				"difficulty": 3
 			},
 			{
-				"name": "SQL Injection Cheet Sheet II",
-				"url": "http://www.sqlinjectionwiki.com/Categories/2/mysql-sql-injection-cheat-sheet/",
-				"description": "另一個不錯的 Cheat Sheet ，右邊可以選擇資料庫系統",
-				"category": ["web"],
-				"difficulty": 3
-			},
-			{
-				"name": "SQL Injection Cheet Sheet III",
+				"name": "SQL Injection Cheat Sheet II",
 				"url": "http://websec.ca/kb/sql_injection",
 				"description": "也是一個蒐集各大資料庫系統，相當詳盡的 Cheat Sheet",
 				"category": ["web"],
