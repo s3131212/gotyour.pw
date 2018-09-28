@@ -79,13 +79,6 @@
 				"difficulty": 5
 			},
 			{
-				"name": "Kali Linux Tools 中文說明書",
-				"url": "https://kali.ictf.pw/",
-				"description": "Kali Linux 的全中文教學",
-				"category": ["complex"],
-				"difficulty": 5
-			},
-			{
 				"name": "Kali Linux 秘籍",
 				"url": "https://www.gitbook.com/book/wizardforcel/kali-linux-cookbook/details",
 				"description": "另一個 Kali Linux 中文教學",
