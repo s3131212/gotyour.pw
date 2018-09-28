@@ -73,16 +73,9 @@
 			},
 			{
 				"name": "技术入门游戏安全实验室",
-				"url": "http://gslab.qq.com/js/",
+				"url": "http://gslab.qq.com/",
 				"description": "對手機遊戲的資安入門介紹",
 				"category": ["reversing", "mobile"],
-				"difficulty": 5
-			},
-			{
-				"name": "Kali Linux Tools 中文說明書",
-				"url": "https://kali.ictf.pw/",
-				"description": "Kali Linux 的全中文教學",
-				"category": ["complex"],
 				"difficulty": 5
 			},
 			{
@@ -258,13 +251,6 @@
 				"difficulty": 0
 			},
 			{
-				"name": "安全惡意程式偵測技術研發建置計畫",
-				"url": "http://www.anti-botnet.edu.tw/index.html",
-				"description": "TANet 的保護傘，學術網路的資安資訊分析平台",
-				"category": [],
-				"difficulty": 0
-			},
-			{
 				"name": "SecurityFocus",
 				"url": "http://www.securityfocus.com/",
 				"description": "資安新聞網站",
@@ -373,13 +359,6 @@
 				"name": "Paper",
 				"url": "http://paper.seebug.org/",
 				"description": "資安文章部落格",
-				"category": [],
-				"difficulty": 0
-			},
-			{
-				"name": "安全博客 - 阿里聚安全",
-				"url": "http://jaq.alibaba.com/community/index.htm",
-				"description": "阿里巴巴資安團隊的網站",
 				"category": [],
 				"difficulty": 0
 			},
@@ -656,7 +635,7 @@
 			},
 			{
 				"name": "Hacker Game By BlackHost",
-				"url": "http://www.blackhost.xyz/?id=gms",
+				"url": "http://www.blackhost.xyz/?id=hgm",
 				"description": "初學者推薦，能學到HTML、JavaScript、表單POST，在各種地方藏密碼的找密碼遊戲",
 				"category": ["web"],
 				"difficulty": 3
@@ -891,21 +870,14 @@
 				"difficulty": 7
 			},
 			{
-				"name": "SQL Injection Cheet Sheet I",
+				"name": "SQL Injection Cheat Sheet I",
 				"url": "http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/",
 				"description": "SQL 注入 Cheat Sheet",
 				"category": ["web"],
 				"difficulty": 3
 			},
 			{
-				"name": "SQL Injection Cheet Sheet II",
-				"url": "http://www.sqlinjectionwiki.com/Categories/2/mysql-sql-injection-cheat-sheet/",
-				"description": "另一個不錯的 Cheat Sheet ，右邊可以選擇資料庫系統",
-				"category": ["web"],
-				"difficulty": 3
-			},
-			{
-				"name": "SQL Injection Cheet Sheet III",
+				"name": "SQL Injection Cheat Sheet II",
 				"url": "http://websec.ca/kb/sql_injection",
 				"description": "也是一個蒐集各大資料庫系統，相當詳盡的 Cheat Sheet",
 				"category": ["web"],
