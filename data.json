@@ -368,6 +368,13 @@
 				"description": "阿里巴巴資安團隊在知乎上的專欄",
 				"category": [],
 				"difficulty": 0
+			},
+			{
+				"name": "hacker101",
+				"url": "https://www.hacker101.com/",
+				"description": "hackerone設計的入門課程",
+				"category": [],
+				"difficulty": 0
 			}
 		],
 		"工具": [
