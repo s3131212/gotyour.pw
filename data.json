@@ -457,7 +457,7 @@
 			},
 			{
 				"name": "XSStrike",
-				"url": "hhttps://github.com/s0md3v/XSStrike",
+				"url": "https://github.com/s0md3v/XSStrike",
 				"description": "自動化 XSS 工具",
 				"category": ["web"],
 				"difficulty": 3
