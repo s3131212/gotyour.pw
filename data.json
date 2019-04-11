@@ -96,7 +96,14 @@
 				"name": "id0-rsa",
 				"url": "https://id0-rsa.pub/",
 				"description": "手把手入門密碼學的教學",
-				"category": ["category"],
+				"category": ["cryptography"],
+				"difficulty": 5
+			},
+			{
+				"name": "Web Application Penetration Testing Course URLs",
+				"url": "https://docs.google.com/document/d/101EsKlu41ICdeE7mEv189SS8wMtcdXfRtua0ClYjP1M/edit#",
+				"description": "Web 安全影片整理",
+				"category": ["web"],
 				"difficulty": 5
 			}
 		],
@@ -445,6 +452,13 @@
 				"name": "CMSmap",
 				"url": "https://github.com/dionach/CMSmap",
 				"description": "自動化 CMS 攻擊程式",
+				"category": ["web"],
+				"difficulty": 3
+			},
+			{
+				"name": "XSStrike",
+				"url": "hhttps://github.com/s0md3v/XSStrike",
+				"description": "自動化 XSS 工具",
 				"category": ["web"],
 				"difficulty": 3
 			},
