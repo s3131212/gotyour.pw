@@ -20,7 +20,7 @@
 				"url": "http://opensecuritytraining.info/Training.html",
 				"description": "免費的英文教學影片，非常詳細",
 				"category": ["complex"],
-				"difficulty": 6
+				"difficulty": 5
 			},
 			{
 				"name": "OffensiveComputerSecurity",
@@ -104,6 +104,13 @@
 				"url": "https://docs.google.com/document/d/101EsKlu41ICdeE7mEv189SS8wMtcdXfRtua0ClYjP1M/edit#",
 				"description": "Web 安全影片整理",
 				"category": ["web"],
+				"difficulty": 5
+			},
+			{
+				"name": "RE-iOS-Apps",
+				"url": "https://github.com/ivRodriguezCA/RE-iOS-Apps",
+				"description": "iOS App 逆向",
+				"category": ["mobile","reversing"],
 				"difficulty": 5
 			}
 		],
