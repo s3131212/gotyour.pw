@@ -20,7 +20,7 @@
 				"url": "http://opensecuritytraining.info/Training.html",
 				"description": "免費的英文教學影片，非常詳細",
 				"category": ["complex"],
-				"difficulty": 6
+				"difficulty": 5
 			},
 			{
 				"name": "OffensiveComputerSecurity",
@@ -96,7 +96,21 @@
 				"name": "id0-rsa",
 				"url": "https://id0-rsa.pub/",
 				"description": "手把手入門密碼學的教學",
-				"category": ["category"],
+				"category": ["cryptography"],
+				"difficulty": 5
+			},
+			{
+				"name": "Web Application Penetration Testing Course URLs",
+				"url": "https://docs.google.com/document/d/101EsKlu41ICdeE7mEv189SS8wMtcdXfRtua0ClYjP1M/edit#",
+				"description": "Web 安全影片整理",
+				"category": ["web"],
+				"difficulty": 5
+			},
+			{
+				"name": "RE-iOS-Apps",
+				"url": "https://github.com/ivRodriguezCA/RE-iOS-Apps",
+				"description": "iOS App 逆向",
+				"category": ["mobile","reversing"],
 				"difficulty": 5
 			}
 		],
@@ -449,6 +463,13 @@
 				"difficulty": 3
 			},
 			{
+				"name": "XSStrike",
+				"url": "https://github.com/s0md3v/XSStrike",
+				"description": "自動化 XSS 工具",
+				"category": ["web"],
+				"difficulty": 3
+			},
+			{
 				"name": "Cheat Engine",
 				"url": "http://www.cheatengine.org/",
 				"description": "可以任意檢視、修改記憶體內容，常用於逆向工程和外掛製作",
@@ -577,6 +598,13 @@
 			}
 		],
 		"遊戲/練功房": [
+			{
+				"name": "alert(1) to win",
+				"url": "https://escape.alf.nu/",
+				"description": "XSS 練功房，解答在<a href=\"http://exp.tw/writing/show/38\" target=\"_blank\" rel=\"nofollow\">此</a>",
+				"category": ["web"],
+				"difficulty": 3
+			},
 			{
 				"name": "prompt(1) to win",
 				"url": "http://prompt.ml/0",
