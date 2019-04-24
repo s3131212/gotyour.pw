@@ -144,13 +144,6 @@
 				"difficulty": 5
 			},
 			{
-				"name": "網路竟然這麼危險！：阿里巴巴首席安全專家教你全方位保護網站(第2版)",
-				"url": "http://www.books.com.tw/products/0010666977",
-				"description": "",
-				"category": ["web"],
-				"difficulty": 3
-			},
-			{
 				"name": "XSS網站安全技術與實務：防護解密剖析大進擊",
 				"url": "http://www.books.com.tw/products/0010640829",
 				"description": "",
@@ -198,13 +191,6 @@
 				"description": "",
 				"category": ["complex", "network", "web"],
 				"difficulty": 5
-			},
-			{
-				"name": "安全軟件開發之道：構築軟件安全的本質方法",
-				"url": "http://www.books.com.tw/products/CN11102375",
-				"description": "",
-				"category": ["programmingsecurity"],
-				"difficulty": 3
 			},
 			{
 				"name": "Rootkit:系統灰色地帶的潛伏者",
