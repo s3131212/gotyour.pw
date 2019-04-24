@@ -300,8 +300,8 @@
 				"difficulty": 0
 			},
 			{
-				"name": "VulReport",
-				"url": "https://vulreport.net/",
+				"name": "HITCON ZeroDay",
+				"url": "https://zeroday.hitcon.org/",
 				"description": "由 HITCON 發起並支持的漏洞通報平台",
 				"category": [],
 				"difficulty": 0
