@@ -23,13 +23,6 @@
 				"difficulty": 5
 			},
 			{
-				"name": "OffensiveComputerSecurity",
-				"url": "http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html",
-				"description": "又是一個詳細的英文教學影片",
-				"category": ["complex"],
-				"difficulty": 5
-			},
-			{
 				"name": "Irongeek.com",
 				"url": "http://www.irongeek.com/",
 				"description": "一大堆英文教學影片，多的不像話",
