@@ -478,7 +478,7 @@
 			},
 			{
 				"name": "JSDetox",
-				"url": "http://www.relentless-coding.org/projects/jsdetox",
+				"url": "http://www.relentless-coding.org/projects/jsdetox/",
 				"description": "一個強大的分析引擎，用來分析惡意混淆後的 JavaScript，自動還原靜態資料",
 				"category": ["web"],
 				"difficulty": 3
