@@ -690,7 +690,7 @@
 			},
 			{
 				"name": "OWASP Mutillidae II",
-				"url": "https://sourceforge.net/projects/mutillidae/",
+				"url": "https://github.com/webpwnized/mutillidae",
 				"description": "Web 安全，攻擊類型涵蓋範圍相當廣",
 				"difficulty": 0
 			}
