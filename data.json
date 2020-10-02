@@ -606,14 +606,14 @@
 			},
 			{
 				"name": "Broken Web Applications",
-				"url": "https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project",
+				"url": "https://owasp.org/www-project-broken-web-applications/",
 				"description": "OWASP 維護的攻擊學習網站 （需下載）",
 				"category": ["web"],
 				"difficulty": 3
 			},
 			{
 				"name": "WebGoat",
-				"url": "https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project",
+				"url": "https://owasp.org/www-project-webgoat/",
 				"description": "一個漏洞豐富的網站，最適合初學者學習攻擊 （需下載）",
 				"category": ["web"],
 				"difficulty": 3
@@ -645,12 +645,6 @@
 				"description": "PHP/MySQL web application 的入門弱點練習包，內附有一些連結教學提示&原始碼",
 				"category": ["web"],
 				"difficulty": 3
-			},
-			{
-				"name": "南京邮电大学网络攻防训练平台",
-				"url": "http://ctf.nuptsast.com/",
-				"description": "很簡單的 CTF 練功房",
-				"difficulty": 0
 			},
 			{
 				"name": "Please Hack Me",
