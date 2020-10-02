@@ -572,7 +572,7 @@
 			{
 				"name": "alert(1) to win",
 				"url": "https://escape.alf.nu/",
-				"description": "XSS 練功房，解答在<a href=\"http://exp.tw/writing/show/38\" target=\"_blank\" rel=\"nofollow\">此</a>",
+				"description": "XSS 練功房",
 				"category": ["web"],
 				"difficulty": 3
 			},
