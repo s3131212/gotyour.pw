@@ -422,7 +422,7 @@
 			},
 			{
 				"name": "Ettercap",
-				"url": "http://ettercap.github.io/ettercap/",
+				"url": "https://www.ettercap-project.org/",
 				"description": "MITM 攻擊測試工具",
 				"category": ["network"],
 				"difficulty": 5
