@@ -792,12 +792,6 @@
 				"difficulty": 0
 			},
 			{
-				"name": "XCTF-Time",
-				"url": "https://time.xctf.org.cn/",
-				"description": "中國版的 CTFtime",
-				"difficulty": 0
-			},
-			{
 				"name": "217 部落格",
 				"url": "http://217.logdown.com/",
 				"description": "CTF 戰隊 217 的部落格，有許多 Write-up",
