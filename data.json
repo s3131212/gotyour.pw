@@ -562,7 +562,7 @@
 			},
 			{
 				"name": "RouterSploit",
-				"url": "https://github.com/reverse-shell/routersploit",
+				"url": "https://github.com/threat9/routersploit",
 				"description": "綜合很多廠牌路由器的漏洞",
 				"category": ["complex"],
 				"difficulty": 5
