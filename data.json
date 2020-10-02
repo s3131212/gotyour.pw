@@ -499,7 +499,7 @@
 			},
 			{
 				"name": "jsbeautifier",
-				"url": "http://jsbeautifier.org/",
+				"url": "https://beautifier.io/",
 				"description": "JavaScript / HTML 格式化工具",
 				"category": ["web"],
 				"difficulty": 3
