@@ -759,13 +759,6 @@
 				"category": [],
 				"difficulty": 0
 			},
-			{
-				"name": "SyScan",
-				"url": "https://www.syscan.org/",
-				"description": "於新加坡的資安會議",
-				"category": [],
-				"difficulty": 0
-			}
 		],
 		"CTF": [
 			{
