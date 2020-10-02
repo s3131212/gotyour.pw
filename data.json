@@ -548,7 +548,7 @@
 			},
 			{
 				"name": "McAfee Free Tools",
-				"url": "http://www.mcafee.com/us/downloads/free-tools/index.aspx",
+				"url": "https://www.mcafee.com/enterprise/en-us/downloads/free-tools.html",
 				"description": "McAfee 提供的一大堆免費資安工具",
 				"category": ["complex"],
 				"difficulty": 5
