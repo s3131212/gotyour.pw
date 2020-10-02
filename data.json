@@ -73,7 +73,7 @@
 			},
 			{
 				"name": "Kali Linux 秘籍",
-				"url": "https://www.gitbook.com/book/wizardforcel/kali-linux-cookbook/details",
+				"url": "https://wizardforcel.gitbooks.io/kali-linux-cookbook/content/",
 				"description": "另一個 Kali Linux 中文教學",
 				"category": ["complex"],
 				"difficulty": 5
