@@ -832,14 +832,14 @@
 			},
 			{
 				"name": "SQL Injection Cheat Sheet I",
-				"url": "http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/",
+				"url": "https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/",
 				"description": "SQL 注入 Cheat Sheet",
 				"category": ["web"],
 				"difficulty": 3
 			},
 			{
 				"name": "SQL Injection Cheat Sheet II",
-				"url": "http://websec.ca/kb/sql_injection",
+				"url": "https://websec.ca/kb/sql_injection",
 				"description": "也是一個蒐集各大資料庫系統，相當詳盡的 Cheat Sheet",
 				"category": ["web"],
 				"difficulty": 3
@@ -853,7 +853,7 @@
 			},
 			{
 				"name": "XSS Cheet Sheet I",
-				"url": "https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet",
+				"url": "https://owasp.org/www-community/xss-filter-evasion-cheatsheet",
 				"description": "OWASP 的 XSS Cheat Sheet ，超詳細",
 				"category": ["web"],
 				"difficulty": 3
