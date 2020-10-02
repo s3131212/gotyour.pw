@@ -380,7 +380,7 @@
 			},
 			{
 				"name": "commix",
-				"url": "https://github.com/stasinopoulos/commix",
+				"url": "https://github.com/commixproject/commix",
 				"description": "自動化 Command Injection 測試工具",
 				"category": ["complex", "web"],
 				"difficulty": 3
