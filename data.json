@@ -567,14 +567,6 @@
 				"category": ["complex"],
 				"difficulty": 5
 			},
-			{
-				"name": "crypto",
-				"url": "http://temp.crypo.com/index.htm",
-				"description": "很多好用的線上加解密 / hash 平台",
-				"category": ["cryptography"],
-				"difficulty": 1
-				
-			}
 		],
 		"遊戲/練功房": [
 			{
