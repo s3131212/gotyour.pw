@@ -831,13 +831,6 @@
 				"difficulty": 5
 			},
 			{
-				"name": "awesome-windows-security-development",
-				"url": "https://github.com/DragonQuestHero/awesome-windows-security-development/blob/master/README.md",
-				"description": "Windows Security Cheat sheet",
-				"category": ["complex"],
-				"difficulty": 7
-			},
-			{
 				"name": "SQL Injection Cheat Sheet I",
 				"url": "http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/",
 				"description": "SQL 注入 Cheat Sheet",
