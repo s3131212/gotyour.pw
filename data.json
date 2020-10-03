@@ -116,49 +116,49 @@
 				"difficulty": 3
 			},
 			{
-				"name": "The Browser Hacker’s Handbook駭客攻防聖經",
+				"name": "The Browser Hacker’s Handbook 駭客攻防聖經",
 				"url": "http://www.books.com.tw/products/0010697765",
 				"description": "",
 				"category": ["web"],
 				"difficulty": 3
 			},
 			{
-				"name": "Windows軟體安全實務：緩衝區溢位攻擊",
+				"name": "Windows 軟體安全實務：緩衝區溢位攻擊",
 				"url": "http://www.books.com.tw/products/0010689881",
 				"description": "",
 				"category": ["reversing"],
 				"difficulty": 7
 			},
 			{
-				"name": "Android Hacker’s Handbook駭客攻防聖經",
+				"name": "Android Hacker’s Handbook 駭客攻防聖經",
 				"url": "http://www.books.com.tw/products/0010687507",
 				"description": "",
 				"category": ["mobile"],
 				"difficulty": 5
 			},
 			{
-				"name": "XSS網站安全技術與實務：防護解密剖析大進擊",
+				"name": "XSS 網站安全技術與實務：防護解密剖析大進擊",
 				"url": "http://www.books.com.tw/products/0010640829",
 				"description": "",
 				"category": ["web"],
 				"difficulty": 3
 			},
 			{
-				"name": "Web 2.0駭客技術揭密",
+				"name": "Web 2.0 駭客技術揭密",
 				"url": "http://www.kingstone.com.tw/3hrs/book_page.asp?kmcode=2013120263086",
 				"description": "",
 				"category": ["web"],
 				"difficulty": 3
 			},
 			{
-				"name": "黑客攻防技術寶典：Web實戰篇",
+				"name": "黑客攻防技術寶典：Web 實戰篇",
 				"url": "http://www.books.com.tw/products/CN10460536",
 				"description": "",
 				"category": ["web", "network"],
 				"difficulty": 5
 			},
 			{
-				"name": "黑客攻防技術寶典：iOS實戰篇",
+				"name": "黑客攻防技術寶典：iOS 實戰篇",
 				"url": "http://www.books.com.tw/products/CN11044914",
 				"description": "",
 				"category": ["mobile"],
@@ -172,14 +172,14 @@
 				"difficulty": 5
 			},
 			{
-				"name": "SQL注入攻擊與防御(第2版)",
+				"name": "SQL 注入攻擊與防御(第 2 版)",
 				"url": "http://www.books.com.tw/products/CN11060479",
 				"description": "",
 				"category": ["web"],
 				"difficulty": 5
 			},
 			{
-				"name": "Metasploit滲透測試與開發實踐指南",
+				"name": "Metasploit 滲透測試與開發實踐指南",
 				"url": "http://www.books.com.tw/products/CN11193135",
 				"description": "",
 				"category": ["complex", "network", "web"],
@@ -207,14 +207,14 @@
 				"difficulty": 5
 			},
 			{
-				"name": "網站安全攻防秘笈：防御黑客和保護用戶的100條超級策略",
+				"name": "網站安全攻防秘笈：防御黑客和保護用戶的 100 條超級策略",
 				"url": "http://www.books.com.tw/products/CN11182115",
 				"description": "",
 				"category": ["web"],
 				"difficulty": 3
 			},
 			{
-				"name": "Web應用漏洞偵測與防御：揭秘鮮為人知的攻擊手段和防御技術",
+				"name": "Web 應用漏洞偵測與防御：揭秘鮮為人知的攻擊手段和防御技術",
 				"url": "http://www.books.com.tw/products/CN11158111",
 				"description": "",
 				"category": ["web"],
@@ -365,7 +365,7 @@
 			{
 				"name": "hacker101",
 				"url": "https://www.hacker101.com/",
-				"description": "hackerone設計的入門課程",
+				"description": "HackerOne 設計的入門課程",
 				"category": [],
 				"difficulty": 0
 			}
@@ -479,7 +479,7 @@
 			{
 				"name": "jsnice",
 				"url": "http://www.jsnice.org/",
-				"description": "一個強大的分析引擎，用來協助處理經過壓縮的 JavaScript，自動進行變數重命名，還能自動分析變數型別，並且加上JSDoc",
+				"description": "一個強大的分析引擎，用來協助處理經過壓縮的 JavaScript，自動進行變數重命名，還能自動分析變數型別，並且加上 JSDoc",
 				"category": ["web"],
 				"difficulty": 3
 			},
@@ -642,7 +642,7 @@
 			{
 				"name": "Hacker Game By BlackHost",
 				"url": "http://www.blackhost.xyz/?id=hgm",
-				"description": "初學者推薦，能學到HTML、JavaScript、表單POST，在各種地方藏密碼的找密碼遊戲",
+				"description": "初學者推薦，能學到 HTML、JavaScript、表單 POST，在各種地方藏密碼的找密碼遊戲",
 				"category": ["web"],
 				"difficulty": 3
 			},
@@ -727,7 +727,7 @@
 			{
 				"name": "DEFCON",
 				"url": "https://www.defcon.org/",
-				"description": "世界上歷史最悠久，最盛大的駭客年會/CTF之一",
+				"description": "世界上歷史最悠久，最盛大的駭客年會/CTF 之一",
 				"category": [],
 				"difficulty": 0
 			},
