@@ -23,13 +23,6 @@
 				"difficulty": 5
 			},
 			{
-				"name": "OffensiveComputerSecurity",
-				"url": "http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html",
-				"description": "又是一個詳細的英文教學影片",
-				"category": ["complex"],
-				"difficulty": 5
-			},
-			{
 				"name": "Irongeek.com",
 				"url": "http://www.irongeek.com/",
 				"description": "一大堆英文教學影片，多的不像話",
@@ -38,7 +31,7 @@
 			},
 			{
 				"name": "SANS Cyber Aces Online Tutorials",
-				"url": "https://tutorials.cyberaces.org/tutorials",
+				"url": "https://tutorials.cyberaces.org/tutorials.html",
 				"description": "簡單易懂的英文教學影片",
 				"category": ["complex"],
 				"difficulty": 5
@@ -80,7 +73,7 @@
 			},
 			{
 				"name": "Kali Linux 秘籍",
-				"url": "https://www.gitbook.com/book/wizardforcel/kali-linux-cookbook/details",
+				"url": "https://wizardforcel.gitbooks.io/kali-linux-cookbook/content/",
 				"description": "另一個 Kali Linux 中文教學",
 				"category": ["complex"],
 				"difficulty": 5
@@ -101,7 +94,7 @@
 			},
 			{
 				"name": "Web Application Penetration Testing Course URLs",
-				"url": "https://docs.google.com/document/d/101EsKlu41ICdeE7mEv189SS8wMtcdXfRtua0ClYjP1M/edit#",
+				"url": "https://docs.google.com/document/d/1KP3xbo_PLE3yus8MpJlq19aPqdRzhjnapKzvkcWnY5A/edit",
 				"description": "Web 安全影片整理",
 				"category": ["web"],
 				"difficulty": 5
@@ -387,7 +380,7 @@
 			},
 			{
 				"name": "commix",
-				"url": "https://github.com/stasinopoulos/commix",
+				"url": "https://github.com/commixproject/commix",
 				"description": "自動化 Command Injection 測試工具",
 				"category": ["complex", "web"],
 				"difficulty": 3
@@ -429,7 +422,7 @@
 			},
 			{
 				"name": "Ettercap",
-				"url": "http://ettercap.github.io/ettercap/",
+				"url": "https://www.ettercap-project.org/",
 				"description": "MITM 攻擊測試工具",
 				"category": ["network"],
 				"difficulty": 5
@@ -485,7 +478,7 @@
 			},
 			{
 				"name": "JSDetox",
-				"url": "http://www.relentless-coding.org/projects/jsdetox",
+				"url": "http://www.relentless-coding.org/projects/jsdetox/",
 				"description": "一個強大的分析引擎，用來分析惡意混淆後的 JavaScript，自動還原靜態資料",
 				"category": ["web"],
 				"difficulty": 3
@@ -506,7 +499,7 @@
 			},
 			{
 				"name": "jsbeautifier",
-				"url": "http://jsbeautifier.org/",
+				"url": "https://beautifier.io/",
 				"description": "JavaScript / HTML 格式化工具",
 				"category": ["web"],
 				"difficulty": 3
@@ -555,7 +548,7 @@
 			},
 			{
 				"name": "McAfee Free Tools",
-				"url": "http://www.mcafee.com/us/downloads/free-tools/index.aspx",
+				"url": "https://www.mcafee.com/enterprise/en-us/downloads/free-tools.html",
 				"description": "McAfee 提供的一大堆免費資安工具",
 				"category": ["complex"],
 				"difficulty": 5
@@ -569,25 +562,17 @@
 			},
 			{
 				"name": "RouterSploit",
-				"url": "https://github.com/reverse-shell/routersploit",
+				"url": "https://github.com/threat9/routersploit",
 				"description": "綜合很多廠牌路由器的漏洞",
 				"category": ["complex"],
 				"difficulty": 5
 			},
-			{
-				"name": "crypto",
-				"url": "http://temp.crypo.com/index.htm",
-				"description": "很多好用的線上加解密 / hash 平台",
-				"category": ["cryptography"],
-				"difficulty": 1
-				
-			}
 		],
 		"遊戲/練功房": [
 			{
 				"name": "alert(1) to win",
 				"url": "https://escape.alf.nu/",
-				"description": "XSS 練功房，解答在<a href=\"http://exp.tw/writing/show/38\" target=\"_blank\" rel=\"nofollow\">此</a>",
+				"description": "XSS 練功房",
 				"category": ["web"],
 				"difficulty": 3
 			},
@@ -621,14 +606,14 @@
 			},
 			{
 				"name": "Broken Web Applications",
-				"url": "https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project",
+				"url": "https://owasp.org/www-project-broken-web-applications/",
 				"description": "OWASP 維護的攻擊學習網站 （需下載）",
 				"category": ["web"],
 				"difficulty": 3
 			},
 			{
 				"name": "WebGoat",
-				"url": "https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project",
+				"url": "https://owasp.org/www-project-webgoat/",
 				"description": "一個漏洞豐富的網站，最適合初學者學習攻擊 （需下載）",
 				"category": ["web"],
 				"difficulty": 3
@@ -662,12 +647,6 @@
 				"difficulty": 3
 			},
 			{
-				"name": "南京邮电大学网络攻防训练平台",
-				"url": "http://ctf.nuptsast.com/",
-				"description": "很簡單的 CTF 練功房",
-				"difficulty": 0
-			},
-			{
 				"name": "Please Hack Me",
 				"url": "https://hackme.inndy.tw/",
 				"description": "略難於樓上的 CTF 練攻房",
@@ -698,8 +677,8 @@
 				"difficulty": 0
 			},
 			{
-				"name": "HackThis!!",
-				"url": "https://www.hackthis.co.uk/",
+				"name": "Defend the Web",
+				"url": "https://defendtheweb.net/",
 				"description": "仍然是練習 Web 攻擊的平台，有特別區分難度水平，蠻適合初學者的",
 				"difficulty": 0
 			},
@@ -711,7 +690,7 @@
 			},
 			{
 				"name": "OWASP Mutillidae II",
-				"url": "https://sourceforge.net/projects/mutillidae/",
+				"url": "https://github.com/webpwnized/mutillidae",
 				"description": "Web 安全，攻擊類型涵蓋範圍相當廣",
 				"difficulty": 0
 			}
@@ -719,22 +698,22 @@
 		"研討會": [
 			{
 				"name": "HITCON",
-				"url": "http://hitcon.org/2015/",
+				"url": "http://hitcon.org/",
 				"description": "台灣最大的駭客與資安技術研討會之一，於每年八月在台北舉辦",
 				"category": [],
 				"difficulty": 0
 			},
 			{
 				"name": "HoneyCon",
-				"url": "http://2015.honeynet.org.tw/",
+				"url": "https://www.facebook.com/HoneynetConference",
 				"description": "台灣誘捕網路技術研討會，是台灣的資安年會之一",
 				"category": [],
 				"difficulty": 0
 			},
 			{
-				"name": "台灣資訊安全大會",
-				"url": "http://infosec.ithome.com.tw/",
-				"description": "台灣的年度資安盛會之一",
+				"name": "Cybersec 臺灣資安大會",
+				"url": "https://cyber.ithome.com.tw/",
+				"description": "臺灣的年度資安盛會之一",
 				"category": [],
 				"difficulty": 0
 			},
@@ -780,13 +759,6 @@
 				"category": [],
 				"difficulty": 0
 			},
-			{
-				"name": "SyScan",
-				"url": "https://www.syscan.org/",
-				"description": "於新加坡的資安會議",
-				"category": [],
-				"difficulty": 0
-			}
 		],
 		"CTF": [
 			{
@@ -803,7 +775,7 @@
 			},
 			{
 				"name": "CTF-All-In-One（CTF 从入门到放弃）",
-				"url": "https://legacy.gitbook.com/book/firmianay/ctf-all-in-one/details",
+				"url": "https://firmianay.gitbooks.io/ctf-all-in-one/content/",
 				"description": "很完整的 CTF 教學",
 				"difficulty": 0
 			},
@@ -820,21 +792,9 @@
 				"difficulty": 0
 			},
 			{
-				"name": "XCTF-Time",
-				"url": "https://time.xctf.org.cn/",
-				"description": "中國版的 CTFtime",
-				"difficulty": 0
-			},
-			{
 				"name": "217 部落格",
 				"url": "http://217.logdown.com/",
 				"description": "CTF 戰隊 217 的部落格，有許多 Write-up",
-				"difficulty": 0
-			},
-			{
-				"name": "XCTF-Time",
-				"url": "https://time.xctf.org.cn/",
-				"description": "中國版的 CTFtime",
 				"difficulty": 0
 			},
 			{
@@ -845,14 +805,8 @@
 			},
 			{
 				"name": "CTF中那些脑洞大开的编码和加密",
-				"url": "https://www.hackfun.org/CTF/coding-and-encryption-of-those-brain-holes-in-CTF.html",
+				"url": "https://hackfun.org/2017/02/22/CTF%E4%B8%AD%E9%82%A3%E4%BA%9B%E8%84%91%E6%B4%9E%E5%A4%A7%E5%BC%80%E7%9A%84%E7%BC%96%E7%A0%81%E5%92%8C%E5%8A%A0%E5%AF%86/",
 				"description": "整理 CTF 中常見的編碼、加密方式",
-				"difficulty": 0
-			},
-			{
-				"name": "南京邮电大学网络攻防训练平台",
-				"url": "http://ctf.nuptsast.com/",
-				"description": "很簡單的 CTF 練功房",
 				"difficulty": 0
 			},
 			{
@@ -877,22 +831,15 @@
 				"difficulty": 5
 			},
 			{
-				"name": "awesome-windows-security-development",
-				"url": "https://github.com/DragonQuestHero/awesome-windows-security-development/blob/master/README.md",
-				"description": "Windows Security Cheat sheet",
-				"category": ["complex"],
-				"difficulty": 7
-			},
-			{
 				"name": "SQL Injection Cheat Sheet I",
-				"url": "http://ferruh.mavituna.com/sql-injection-cheatsheet-oku/",
+				"url": "https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/",
 				"description": "SQL 注入 Cheat Sheet",
 				"category": ["web"],
 				"difficulty": 3
 			},
 			{
 				"name": "SQL Injection Cheat Sheet II",
-				"url": "http://websec.ca/kb/sql_injection",
+				"url": "https://websec.ca/kb/sql_injection",
 				"description": "也是一個蒐集各大資料庫系統，相當詳盡的 Cheat Sheet",
 				"category": ["web"],
 				"difficulty": 3
@@ -906,7 +853,7 @@
 			},
 			{
 				"name": "XSS Cheet Sheet I",
-				"url": "https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet",
+				"url": "https://owasp.org/www-community/xss-filter-evasion-cheatsheet",
 				"description": "OWASP 的 XSS Cheat Sheet ，超詳細",
 				"category": ["web"],
 				"difficulty": 3
