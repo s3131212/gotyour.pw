@@ -615,7 +615,7 @@
 				"description": "物聯網搜尋引擎",
 				"category": ["complex", "network"],
 				"difficulty": 0
-			},
+			}
 		],
 		"遊戲/練功房": [
 			{
@@ -840,7 +840,7 @@
 				"description": "整理了一系列在美國資安相關的研討會、舉辦地點和時間",
 				"category": [],
 				"difficulty": 0
-			},
+			}
 		],
 		"CTF": [
 			{
