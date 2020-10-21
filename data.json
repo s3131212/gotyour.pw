@@ -105,6 +105,20 @@
 				"description": "iOS App 逆向",
 				"category": ["mobile","reversing"],
 				"difficulty": 5
+			},
+			{
+				"name": "WebSecurity Academy",
+				"url": "https://portswigger.net/web-security",
+				"description": "Burp suite 母公司PortSwigger所推出的Web Security教學/練習",
+				"category": ["web"],
+				"difficulty": 3
+			},
+			{
+				"name": "Hardware Security",
+				"url": "https://scl.engr.uconn.edu/courses/ece4451/hs.php",
+				"description": "University of Connecticut 的Hardware Security 線上課程",
+				"category": ["hardware"],
+				"difficulty": 3
 			}
 		],
 		"書籍推薦": [
@@ -219,6 +233,20 @@
 				"description": "",
 				"category": ["web"],
 				"difficulty": 3
+			},
+			{
+				"name": "The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws ",
+				"url": "https://www.books.com.tw/products/F012500494",
+				"description": "",
+				"category": ["web"],
+				"difficulty": 2
+			},
+			{
+				"name": "Applied Network Security",
+				"url": "https://www.books.com.tw/products/F015899660",
+				"description": "",
+				"category": ["Network"],
+				"difficulty": 2
 			}
 		],
 		"網站": [
@@ -574,6 +602,20 @@
 				"category": ["complex"],
 				"difficulty": 5
 			},
+			{
+				"name": "Shodan",
+				"url": "https://www.shodan.io/",
+				"description": "物聯網搜尋引擎",
+				"category": ["complex", "network"],
+				"difficulty": 0
+			},
+			{
+				"name": "Censys",
+				"url": "https://censys.io",
+				"description": "物聯網搜尋引擎",
+				"category": ["complex", "network"],
+				"difficulty": 0
+			}
 		],
 		"遊戲/練功房": [
 			{
@@ -594,6 +636,13 @@
 				"name": "Hack This Site (HTS)",
 				"url": "https://www.hackthissite.org/",
 				"description": "較接近實戰練習的線上 Wargame",
+				"category": ["complex"],
+				"difficulty": 5
+			},
+			{
+				"name": "Hack The Box",
+				"url": "https://www.hackthebox.eu/",
+				"description": "大量有不同配置與漏洞的虛擬機可供練習",
 				"category": ["complex"],
 				"difficulty": 5
 			},
@@ -629,6 +678,13 @@
 				"name": "pwnable.kr",
 				"url": "http://pwnable.kr/",
 				"description": "Pwn 類型的題目，也有 ARM 的東西（key 常常很嘲諷）",
+				"category": ["reversing"],
+				"difficulty": 5
+			},
+			{
+				"name": "pwnable.tw",
+				"url": "https://pwnable.tw/",
+				"description": "Wargame平台",
 				"category": ["reversing"],
 				"difficulty": 5
 			},
@@ -700,6 +756,18 @@
 				"url": "https://github.com/webpwnized/mutillidae",
 				"description": "Web 安全，攻擊類型涵蓋範圍相當廣",
 				"difficulty": 0
+			},
+			{
+				"name": "Secure Code Warrior",
+				"url": "https://securecodewarrior.com/",
+				"description": "以互動式的模式練習Secure Coding",
+				"difficulty": 0
+			},
+			{
+				"name": "Embedded Security CTF",
+				"url": "https://microcorruption.com/",
+				"description": "練習滲透Embedded Devices的平台",
+				"difficulty": 4
 			}
 		],
 		"研討會": [
@@ -766,6 +834,13 @@
 				"category": [],
 				"difficulty": 0
 			},
+			{
+				"name": "Information Security, I.T. Conferences & Certs List",
+				"url": "https://github.com/talltechy/infosec_it-conferences-and-certs-usa",
+				"description": "整理了一系列在美國資安相關的研討會、舉辦地點和時間",
+				"category": [],
+				"difficulty": 0
+			}
 		],
 		"CTF": [
 			{
@@ -834,6 +909,34 @@
 				"name": "Awesome Pentest Cheat Sheets",
 				"url": "https://github.com/coreb1t/awesome-pentest-cheat-sheets/blob/master/README.md",
 				"description": "各種滲透測試的總整理",
+				"category": ["complex"],
+				"difficulty": 5
+			},
+			{
+				"name": "Awesome Hacking",
+				"url": "https://github.com/Hack-with-Github/Awesome-Hacking/README.md",
+				"description": "大量Cheat Sheet總整理",
+				"category": ["complex"],
+				"difficulty": 5
+			},
+			{
+				"name": "Penetration Testing Study Note",
+				"url": "https://github.com/Jeffreyhung/Penetration-Testing-Study-Notes/",
+				"description": "大量Cheat Sheet總整理",
+				"category": ["complex"],
+				"difficulty": 5
+			},
+			{
+				"name": "Awesome Security",
+				"url": "https://github.com/sbilly/awesome-security/README.md",
+				"description": "大量工具整理",
+				"category": ["complex"],
+				"difficulty": 5
+			},
+			{
+				"name": "Penetration Testing",
+				"url": "https://github.com/wtsxDev/Penetration-Testing/README.md",
+				"description": "大量滲透測試工具資源整理",
 				"category": ["complex"],
 				"difficulty": 5
 			},
@@ -963,6 +1066,13 @@
 			{
 				"name": "病毒軟體回報中心(Virus software returns center)",
 				"url": "https://www.facebook.com/groups/V.S.R.Center/",
+				"description": "",
+				"category": [],
+				"difficulty": 0
+			},
+			{
+				"name": "RAT",
+				"url": "https://www.facebook.com/groups/ratdork/",
 				"description": "",
 				"category": [],
 				"difficulty": 0
