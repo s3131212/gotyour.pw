@@ -471,7 +471,7 @@
 			},
 			{
 				"name": "IDA",
-				"url": "https://www.hex-rays.com/products/ida/",
+				"url": "https://www.hex-rays.com/ida-free/",
 				"description": "逆向工程及除錯工具",
 				"category": ["reversing"],
 				"difficulty": 5
