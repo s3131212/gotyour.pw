@@ -561,9 +561,9 @@
 				"difficulty": 5
 			},
 			{
-				"name": "McAfee Free Tools",
-				"url": "https://www.mcafee.com/enterprise/en-us/downloads/free-tools.html",
-				"description": "McAfee 提供的一大堆免費資安工具",
+				"name": "Trellix Free Tools",
+				"url": "https://www.trellix.com/en-us/downloads/free-tools.html",
+				"description": "Trellix（前身McAfee） 提供的一大堆免費資安工具",
 				"category": ["complex"],
 				"difficulty": 5
 			},
