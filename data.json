@@ -422,14 +422,14 @@
 			},
 			{
 				"name": "Burp Suite",
-				"url": "http://portswigger.net/burp/",
+				"url": "https://portswigger.net/burp/",
 				"description": "強大的測試工具，包含漏洞掃描，檢視、修改、傳送封包",
 				"category": ["web"],
 				"difficulty": 5
 			},
 			{
 				"name": "Metasploit",
-				"url": "http://www.metasploit.com/",
+				"url": "https://www.metasploit.com/",
 				"description": "滲透測試用的工具包",
 				"category": ["complex", "network", "web"],
 				"difficulty": 5
@@ -464,7 +464,7 @@
 			},
 			{
 				"name": "Cheat Engine",
-				"url": "http://www.cheatengine.org/",
+				"url": "https://www.cheatengine.org/",
 				"description": "可以任意檢視、修改記憶體內容，常用於逆向工程和外掛製作",
 				"category": ["reversing"],
 				"difficulty": 5
