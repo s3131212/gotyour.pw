@@ -478,7 +478,7 @@
 			},
 			{
 				"name": "GDB",
-				"url": "https://www.gnu.org/software/gdb/",
+				"url": "https://www.sourceware.org/gdb/",
 				"description": "也是一個除錯工具，常用於逆向工程",
 				"category": ["reversing"],
 				"difficulty": 5
