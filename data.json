@@ -30,13 +30,6 @@
 				"difficulty": 7
 			},
 			{
-				"name": "SANS Cyber Aces Online Tutorials",
-				"url": "https://tutorials.cyberaces.org/tutorials.html",
-				"description": "簡單易懂的英文教學影片",
-				"category": ["complex"],
-				"difficulty": 5
-			},
-			{
 				"name": "惡意軟體逆向工程英文教學",
 				"url": "http://fumalwareanalysis.blogspot.tw/p/malware-analysis-tutorials-reverse.html",
 				"description": "以逆向工程分析惡意軟體的英文文圖教學",
