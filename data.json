@@ -265,13 +265,6 @@
 				"difficulty": 0
 			},
 			{
-				"name": "SecurityFocus",
-				"url": "http://www.securityfocus.com/",
-				"description": "資安新聞網站",
-				"category": [],
-				"difficulty": 0
-			},
-			{
 				"name": "Exploit Database",
 				"url": "http://www.exploit-db.com/",
 				"description": "各種最新漏洞的追蹤及 PoC",
