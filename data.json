@@ -245,14 +245,14 @@
 		"網站": [
 			{
 				"name": "Packet Storm",
-				"url": "http://packetstormsecurity.com/",
+				"url": "https://packetstormsecurity.com/",
 				"description": "資安新聞網站",
 				"category": [],
 				"difficulty": 0
 			},
 			{
 				"name": "CVE Details",
-				"url": "http://www.cvedetails.com/",
+				"url": "https://www.cvedetails.com/",
 				"description": "CVE 漏洞詳細資料及整理",
 				"category": [],
 				"difficulty": 0
