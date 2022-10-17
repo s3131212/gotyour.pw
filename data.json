@@ -363,13 +363,6 @@
 				"difficulty": 0
 			},
 			{
-				"name": "Paper",
-				"url": "http://paper.seebug.org/",
-				"description": "資安文章部落格",
-				"category": [],
-				"difficulty": 0
-			},
-			{
 				"name": "阿里聚安全的安全专栏",
 				"url": "https://zhuanlan.zhihu.com/alijaq",
 				"description": "阿里巴巴資安團隊在知乎上的專欄",
