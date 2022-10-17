@@ -322,21 +322,21 @@
 			},
 			{
 				"name": "看雪安全論壇",
-				"url": "http://bbs.pediy.com/",
+				"url": "https://bbs.pediy.com/",
 				"description": "中國知名資安論壇",
 				"category": [],
 				"difficulty": 0
 			},
 			{
 				"name": "HITCON Knowledge Base",
-				"url": "http://kb.hitcon.org/",
+				"url": "https://kb.hitcon.org/",
 				"description": "由 HITCON 發起的資料整理平台",
 				"category": [],
 				"difficulty": 0
 			},
 			{
 				"name": "Security Mailing List Archive",
-				"url": "http://seclists.org/",
+				"url": "https://seclists.org/",
 				"description": "整理有關資安的 Mailing List",
 				"category": [],
 				"difficulty": 0
@@ -357,7 +357,7 @@
 			},
 			{
 				"name": "Krebs On Security",
-				"url": "http://krebsonsecurity.com/",
+				"url": "https://krebsonsecurity.com/",
 				"description": "資安新聞網站",
 				"category": [],
 				"difficulty": 0
