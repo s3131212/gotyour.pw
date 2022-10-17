@@ -266,14 +266,14 @@
 			},
 			{
 				"name": "Exploit Database",
-				"url": "http://www.exploit-db.com/",
+				"url": "https://www.exploit-db.com/",
 				"description": "各種最新漏洞的追蹤及 PoC",
 				"category": [],
 				"difficulty": 0
 			},
 			{
 				"name": "0day.today",
-				"url": "http://0day.today/",
+				"url": "https://0day.today/",
 				"description": "PoC 交易黑市及漏洞使用範例",
 				"category": [],
 				"difficulty": 0
@@ -287,21 +287,21 @@
 			},
 			{
 				"name": "iThome",
-				"url": "http://www.ithome.com.tw/",
+				"url": "https://www.ithome.com.tw/",
 				"description": "台灣 IT 新聞網站，有豐富的資安及其他領域的新聞與整理",
 				"category": [],
 				"difficulty": 0
 			},
 			{
 				"name": "FreeBuf",
-				"url": "http://www.freebuf.com/",
+				"url": "https://www.freebuf.com/",
 				"description": "關注黑客與資安新聞的中國網站",
 				"category": [],
 				"difficulty": 0
 			},
 			{
-				"name": "Hacker News",
-				"url": "http://thehackernews.com/",
+				"name": "The Hacker News",
+				"url": "https://thehackernews.com/",
 				"description": "關於資安的新聞網站",
 				"category": [],
 				"difficulty": 0
